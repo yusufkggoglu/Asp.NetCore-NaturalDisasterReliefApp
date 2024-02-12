@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{365D8D3A-3680-4DF4-885A-760BB2565B84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{7810953F-7930-4F9B-A39C-C7DBC7E4FCF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aid", "Aid", "{0156544F-9AEA-42D6-8059-72D5D512CDCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Aid", "Services\Aid\Services.Aid\Services.Aid.csproj", "{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{02311488-8C97-4FEB-A99B-4A57C7C2F291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared\Shared.csproj", "{09A081E0-38B8-4F8E-9804-BEACB0249CC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A081E0-38B8-4F8E-9804-BEACB0249CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09A081E0-38B8-4F8E-9804-BEACB0249CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09A081E0-38B8-4F8E-9804-BEACB0249CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09A081E0-38B8-4F8E-9804-BEACB0249CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0156544F-9AEA-42D6-8059-72D5D512CDCE} = {365D8D3A-3680-4DF4-885A-760BB2565B84}
+		{EEA750E7-7082-46C8-9AF7-F8EE84111C5E} = {0156544F-9AEA-42D6-8059-72D5D512CDCE}
+		{09A081E0-38B8-4F8E-9804-BEACB0249CC0} = {02311488-8C97-4FEB-A99B-4A57C7C2F291}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6AA896D-3903-4AE6-915C-4DDC3694FE96}
+	EndGlobalSection
+EndGlobal
