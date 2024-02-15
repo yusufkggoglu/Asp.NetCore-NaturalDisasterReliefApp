@@ -11,6 +11,10 @@ namespace Services.Aid.Mapping
             CreateMap<BasisAid, BasisAidDto>().ReverseMap();
             CreateMap<BasisAid, BasisAidCreateDto>().ReverseMap();
             CreateMap<BasisAid, BasisAidUpdateDto>().ReverseMap();
+
+            CreateMap<HumaneAid, HumaneAidDto>().ReverseMap();
+            CreateMap<HumaneAid, HumaneAidCreateDto>().ReverseMap();
+            CreateMap<HumaneAid, HumaneAidUpdateDto>().ReverseMap();
         }
     }
 }

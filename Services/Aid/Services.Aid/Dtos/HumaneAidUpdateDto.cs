@@ -2,7 +2,7 @@
 
 namespace Services.Aid.Dtos
 {
-    public class HumaneAidDto
+    public class HumaneAidUpdateDto
     {
         public string Id { get; set; }
         public string UserId { get; set; }
@@ -14,6 +14,5 @@ namespace Services.Aid.Dtos
         public string Description { get; set; }
         public string Picture { get; set; }
         public bool Status { get; set; }
-        public DateTime CreatedTime { get; set; }
     }
 }

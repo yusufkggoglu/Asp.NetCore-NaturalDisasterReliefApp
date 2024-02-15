@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tKaad02W91oLUDjAeR2rpMPX1D/WmiwH9ELHVnbPctL1zWtTufoNAEHMmQIF4iQUdo0JViPcQLAlrnM+3cbVOQ==",
+  "dgSpecHash": "i7tX30uAo3Kg2z8APPZaHZkNcO7xn2nRR1Uk7RPSMzk+Ub80KeGHLMx3Xh94B1m3he7kDr9QMo1EU34WndMpKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yusuf\\Desktop\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj",
+  "projectFilePath": "C:\\Users\\yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

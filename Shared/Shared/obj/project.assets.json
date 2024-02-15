@@ -4063,11 +4063,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yusuf\\Desktop\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj",
+      "projectUniqueName": "C:\\Users\\yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj",
       "projectName": "Shared",
-      "projectPath": "C:\\Users\\yusuf\\Desktop\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj",
+      "projectPath": "C:\\Users\\yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj",
       "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yusuf\\Desktop\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yusuf\\AppData\\Roaming\\NuGet\\NuGet.Config",

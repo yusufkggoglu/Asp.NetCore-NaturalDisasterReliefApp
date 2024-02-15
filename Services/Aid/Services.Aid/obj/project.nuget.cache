@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9tXt0Yd2K/pSm4c67FoHcB8hhxTqFHVQrDFEzmjVR3CJvDKJWOGR/p4wsRPiFoUV+0KdvdInaMgrWEFvGm3yvg==",
+  "dgSpecHash": "QFg34KskfZfOu5qspw1ccvWFeVUZHF1FX71J6E8jL37OANdOoGNxlwccq3YjqHnWlJ3g9FPg9cMKPqBDzJKFgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yusuf\\Desktop\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Services.Aid.csproj",
+  "projectFilePath": "C:\\Users\\yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Services.Aid.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yusuf\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\yusuf\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

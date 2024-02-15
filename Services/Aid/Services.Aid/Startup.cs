@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using Services.Aid.Extensions;
 using Services.Aid.Services;
 using Services.Aid.Settings;
 using System;
@@ -30,6 +31,7 @@ namespace Services.Aid
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IBasisAidService, BasisAidService>();
+            services.AddScoped<IHumaneAidService, HumaneAidService>();
             services.AddAutoMapper(typeof(Startup));
             services.Configure<DatabaseSettings>(Configuration.GetSection("DatabaseSettings"));
             services.AddSingleton<IDatabaseSettings>(sp =>
@@ -58,7 +60,7 @@ namespace Services.Aid
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.ConfigureExceptionHandler();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
