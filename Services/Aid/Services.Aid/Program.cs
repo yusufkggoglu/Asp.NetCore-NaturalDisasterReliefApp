@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using NLog.Web;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,13 @@ namespace Services.Aid
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                }).ConfigureLogging(opt =>
+                {
+                    opt.ClearProviders();
+                    opt.AddConsole();
+                    opt.AddDebug();
+                    opt.SetMinimumLevel(LogLevel.Error);
+                }).UseNLog();
+
     }
 }

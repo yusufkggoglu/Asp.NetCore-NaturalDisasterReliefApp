@@ -1,0 +1,107 @@
+2024-02-16 01:01:48.8259 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:01:48.8079316Z"}
+2024-02-16 01:01:55.0767 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:01:55.0766652Z"}
+2024-02-16 01:01:57.2660 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:01:57.2659997Z"}
+2024-02-16 01:02:13.1615 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"Create","Id":null,"CreateAt":"2024-02-15T22:02:13.1615633Z"}
+2024-02-16 01:04:32.6061 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:32.5855217Z"}
+2024-02-16 01:04:36.6513 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:36.6512795Z"}
+2024-02-16 01:04:37.0354 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:37.0353882Z"}
+2024-02-16 01:04:37.3239 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:37.323941Z"}
+2024-02-16 01:04:37.5087 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:37.5086906Z"}
+2024-02-16 01:04:37.8320 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:37.8320037Z"}
+2024-02-16 01:04:38.0310 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:38.0310245Z"}
+2024-02-16 01:04:38.1957 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:38.1957112Z"}
+2024-02-16 01:04:38.3602 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:38.3601689Z"}
+2024-02-16 01:04:38.5922 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:38.5921869Z"}
+2024-02-16 01:04:38.7442 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:38.7442257Z"}
+2024-02-16 01:04:38.8455 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:38.8454712Z"}
+2024-02-16 01:04:39.2272 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:04:39.2272656Z"}
+2024-02-16 01:05:38.3401 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:05:38.2951479Z"}
+2024-02-16 01:05:41.1631 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-15T22:05:41.163094Z"}
+2024-02-16 01:05:48.1918 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"2","CreateAt":"2024-02-15T22:05:48.191736Z"}
+2024-02-16 01:06:03.5335 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"2","CreateAt":"2024-02-15T22:06:03.5335061Z"}
+2024-02-16 01:06:12.5147 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65ca28cfba271080616df6d2","CreateAt":"2024-02-15T22:06:12.5147006Z"}
+2024-02-16 09:47:23.6054 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T06:47:23.5768201Z"}
+2024-02-16 09:47:28.1485 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T06:47:28.1484943Z"}
+2024-02-16 09:47:29.0769 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T06:47:29.0769481Z"}
+2024-02-16 09:48:02.3806 INFO {"ModelModel":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"1","CreateAt":"2024-02-16T06:48:02.3805473Z"}
+2024-02-16 09:58:55.5705 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T06:58:55.5519928Z"}
+2024-02-16 09:59:10.8810 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T06:59:10.8809655Z"}
+2024-02-16 09:59:33.2049 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T06:59:33.2049562Z"}
+2024-02-16 09:59:33.2959 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T06:59:33.295901Z"}
+2024-02-16 09:59:34.2316 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T06:59:34.231579Z"}
+2024-02-16 09:59:36.3276 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T06:59:36.3276485Z"}
+2024-02-16 09:59:58.4207 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T06:59:58.4207118Z"}
+2024-02-16 10:00:00.5117 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:00:00.511743Z"}
+2024-02-16 10:00:01.6595 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:00:01.6595362Z"}
+2024-02-16 10:00:02.6449 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:00:02.644928Z"}
+2024-02-16 10:03:20.4695 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:03:20.4492349Z"}
+2024-02-16 10:03:20.6316 INFO ddsfsdf
+2024-02-16 10:03:25.3151 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:03:25.3151398Z"}
+2024-02-16 10:03:25.3231 INFO ddsfsdf
+2024-02-16 10:03:54.4042 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65ca28b2ba271080616df6d1","CreateAt":"2024-02-16T07:03:54.404144Z"}
+2024-02-16 10:04:00.8667 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65ca28b2ba271080616df6d1","CreateAt":"2024-02-16T07:04:00.8667221Z"}
+2024-02-16 10:04:02.2027 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65ca28b2ba271080616df6d1","CreateAt":"2024-02-16T07:04:02.2027283Z"}
+2024-02-16 10:04:22.7889 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65ca28b2ba271080616df6d1","CreateAt":"2024-02-16T07:04:22.7889078Z"}
+2024-02-16 10:05:39.9907 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:05:39.9649824Z"}
+2024-02-16 10:05:44.4858 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:05:44.4858057Z"}
+2024-02-16 10:05:45.8907 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:05:45.8906702Z"}
+2024-02-16 10:05:46.9995 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:05:46.9995271Z"}
+2024-02-16 10:09:28.1684 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:09:28.1495889Z"}
+2024-02-16 10:10:37.4636 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:10:37.4458217Z"}
+2024-02-16 10:10:48.0759 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:10:48.0759041Z"}
+2024-02-16 10:10:58.1132 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:10:58.1132143Z"}
+2024-02-16 10:11:22.2567 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:11:22.2385859Z"}
+2024-02-16 10:11:36.2066 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:11:36.2065962Z"}
+2024-02-16 10:12:26.7570 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:12:26.7569995Z"}
+2024-02-16 10:12:37.0104 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:12:37.0104004Z"}
+2024-02-16 10:14:18.5208 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:14:18.5029434Z"}
+2024-02-16 10:14:24.7007 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:14:24.7006817Z"}
+2024-02-16 10:14:39.8676 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65ca28b2ba271080616df6d1","CreateAt":"2024-02-16T07:14:39.8675276Z"}
+2024-02-16 10:14:45.7338 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65ca28b2ba271080616df6d1","CreateAt":"2024-02-16T07:14:45.7338071Z"}
+2024-02-16 10:14:51.0098 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65ca28b2ba271080616df6d1","CreateAt":"2024-02-16T07:14:51.0097665Z"}
+2024-02-16 10:20:29.8164 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:20:29.7968279Z"}
+2024-02-16 10:21:11.1030 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"Create","Id":null,"CreateAt":"2024-02-16T07:21:11.1028781Z"}
+2024-02-16 10:21:21.0928 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:21:21.0927967Z"}
+2024-02-16 10:25:06.2563 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:25:06.2387212Z"}
+2024-02-16 10:37:36.7595 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:37:36.7390909Z"}
+2024-02-16 10:38:03.7072 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"1","CreateAt":"2024-02-16T07:38:03.7071817Z"}
+2024-02-16 10:38:09.8195 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"1","CreateAt":"2024-02-16T07:38:09.8195427Z"}
+2024-02-16 10:40:08.7444 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:40:08.723499Z"}
+2024-02-16 10:40:25.2350 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"1","CreateAt":"2024-02-16T07:40:25.2349141Z"}
+2024-02-16 10:40:25.4871 ERROR Something went wrong : System.FormatException: '1' is not a valid 24 digit hex string.
+   at MongoDB.Bson.ObjectId.Parse(String s)
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.SerializeValue(BsonSerializationContext context, BsonSerializationArgs args, String value)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Serialize(BsonSerializationContext context, BsonSerializationArgs args, TValue value)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Serialize(BsonSerializationContext context, BsonSerializationArgs args, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Serialize(IBsonSerializer serializer, BsonSerializationContext context, Object value)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.ToBsonValue(IBsonSerializer serializer, Object value)
+   at MongoDB.Driver.Linq.Translators.PredicateTranslator.TranslateComparison(Expression variableExpression, ExpressionType operatorType, ConstantExpression constantExpression)
+   at MongoDB.Driver.Linq.Translators.PredicateTranslator.TranslateComparison(BinaryExpression binaryExpression)
+   at MongoDB.Driver.Linq.Translators.PredicateTranslator.Translate(Expression node)
+   at MongoDB.Driver.Linq.Translators.PredicateTranslator.Translate(Expression node, IBsonSerializerRegistry serializerRegistry)
+   at MongoDB.Driver.Linq.Translators.PredicateTranslator.Translate[TDocument](Expression`1 predicate, IBsonSerializer`1 parameterSerializer, IBsonSerializerRegistry serializerRegistry)
+   at MongoDB.Driver.ExpressionFilterDefinition`1.Render(IBsonSerializer`1 documentSerializer, IBsonSerializerRegistry serializerRegistry)
+   at MongoDB.Driver.MongoCollectionImpl`1.CreateFindOperation[TProjection](FilterDefinition`1 filter, FindOptions`2 options)
+   at MongoDB.Driver.MongoCollectionImpl`1.FindAsync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass47_0`1.<FindAsync>b__0(IClientSessionHandle session)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at Services.Aid.Services.BasisAidService.GetByIdAsync(String id) in C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\Services\BasisAidService.cs:line 69
+   at Services.Aid.Controllers.BasisAidController.GetById(String id) in C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\Controllers\BasisAidController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2024-02-16 10:43:00.2569 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:43:00.2360738Z"}
+2024-02-16 10:43:17.8615 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65cf0ce7ce6d3b56bc887a93","CreateAt":"2024-02-16T07:43:17.8614122Z"}
+2024-02-16 10:43:24.8844 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"1","CreateAt":"2024-02-16T07:43:24.8844618Z"}
+2024-02-16 10:44:28.0634 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"1","CreateAt":"2024-02-16T07:44:28.0377975Z"}
+2024-02-16 10:46:31.9009 INFO {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-16T07:46:31.8828507Z"}
+2024-02-16 10:46:32.0590 INFO Get All has been called.

@@ -1,3 +1,4 @@
+using Marvin.Cache.Headers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -8,11 +9,15 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using NLog;
+using Services.Aid.ActionFilters;
 using Services.Aid.Extensions;
+using Services.Aid.Logging;
 using Services.Aid.Services;
 using Services.Aid.Settings;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -30,6 +35,23 @@ namespace Services.Aid
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var logPath = Path.Combine(Directory.GetCurrentDirectory(), "Logs");
+            NLog.GlobalDiagnosticsContext.Set("LogDirectory", logPath);
+
+            services.AddSingleton<ILoggerService, LoggerManager>();
+            services.AddSingleton<LogFilterAttribute>();
+            services.AddLogging();
+            services.AddResponseCaching();
+            services.AddHttpCacheHeaders(expirationOpt =>
+            {
+                expirationOpt.MaxAge = 70;
+                expirationOpt.CacheLocation = CacheLocation.Private;
+            },
+                validationOpt =>
+                {
+                    validationOpt.MustRevalidate = false;
+                }
+            ); 
             services.AddScoped<IBasisAidService, BasisAidService>();
             services.AddScoped<IHumaneAidService, HumaneAidService>();
             services.AddAutoMapper(typeof(Startup));
@@ -38,7 +60,9 @@ namespace Services.Aid
             {
                 return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
             });
-            services.AddControllers();
+            services.AddControllers(config => {
+                config.CacheProfiles.Add("5mins", new CacheProfile() { Duration = 300 });
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Services.Aid", Version = "v1" });
@@ -58,9 +82,11 @@ namespace Services.Aid
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseResponseCaching();
+            app.UseHttpCacheHeaders();
             app.UseAuthorization();
-            app.ConfigureExceptionHandler();
+            var logger = app.ApplicationServices.GetRequiredService<ILoggerService>();
+            app.ConfigureExceptionHandler(logger);
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

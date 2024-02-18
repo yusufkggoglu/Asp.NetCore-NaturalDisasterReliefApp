@@ -1,18 +1,22 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using DnsClient.Internal;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Services.Aid.ActionFilters;
 using Services.Aid.Dtos;
+using Services.Aid.Logging;
 using Services.Aid.Services;
 using Shared.ControllerBases;
 using System.Threading.Tasks;
 
 namespace Services.Aid.Controllers
 {
+    //[ServiceFilter(typeof(LogFilterAttribute))]
     [Route("api/[controller]")]
     [ApiController]
+    [ResponseCache(CacheProfileName = "5mins")]
     public class BasisAidController : CustomControllerBase
     {
         private readonly IBasisAidService _basisAidService;
-
         public BasisAidController(IBasisAidService basisAidService)
         {
             _basisAidService = basisAidService;

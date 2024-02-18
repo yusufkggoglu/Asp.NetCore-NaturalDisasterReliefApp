@@ -28,3 +28,4 @@ C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Shared\Sh
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.csproj.CoreCompileInputs.cache
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.pdb
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Shared\Shared\obj\Debug\netcoreapp3.1\Shared.sourcelink.json

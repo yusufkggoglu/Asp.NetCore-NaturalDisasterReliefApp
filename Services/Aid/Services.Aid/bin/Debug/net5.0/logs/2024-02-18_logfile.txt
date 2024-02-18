@@ -1,0 +1,778 @@
+ DEBUG Hosting starting
+ DEBUG Using development certificate: CN=localhost (Thumbprint: B66692DFC4255328F449673010F1EA3B950EE33A)
+ INFO Now listening on: https://localhost:5011
+ DEBUG Loaded hosting startup assembly Services.Aid
+ DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+ DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+ INFO Application started. Press Ctrl+C to shut down.
+ INFO Hosting environment: Development
+ INFO Content root path: C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid
+ DEBUG Hosting started
+ DEBUG Connection id "0HN1GITPQSQ6J" received FIN.
+ DEBUG Connection id "0HN1GITPQSQ6I" received FIN.
+ DEBUG Connection id "0HN1GITPQSQ6J" accepted.
+ DEBUG Connection id "0HN1GITPQSQ6I" accepted.
+ DEBUG Connection id "0HN1GITPQSQ6I" started.
+ DEBUG Connection id "0HN1GITPQSQ6J" started.
+ DEBUG Connection id "0HN1GITPQSQ6K" accepted.
+ DEBUG Connection id "0HN1GITPQSQ6K" started.
+ DEBUG Failed to authenticate HTTPS connection.
+ DEBUG Failed to authenticate HTTPS connection.
+ DEBUG Connection id "0HN1GITPQSQ6I" stopped.
+ DEBUG Connection id "0HN1GITPQSQ6J" stopped.
+ DEBUG Connection id "0HN1GITPQSQ6J" sending FIN because: "The Socket transport's send loop completed gracefully."
+ DEBUG Connection id "0HN1GITPQSQ6I" sending FIN because: "The Socket transport's send loop completed gracefully."
+ DEBUG Connection "0HN1GITPQSQ6K" established using the following protocol: Tls13
+ TRACE Connection id "0HN1GITPQSQ6K" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ TRACE Connection id "0HN1GITPQSQ6K" received SETTINGS frame for stream ID 0 with length 24 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK
+ TRACE Connection id "0HN1GITPQSQ6K" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ TRACE Connection id "0HN1GITPQSQ6K" received HEADERS frame for stream ID 1 with length 486 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE Connection id "0HN1GITPQSQ6K" received SETTINGS frame for stream ID 0 with length 0 and flags ACK
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/index.html - -
+ DEBUG Wildcard detected, all requests with hosts will be allowed.
+ TRACE All hosts are allowed.
+ DEBUG Response markup is scheduled to include Browser Link script injection.
+ DEBUG Response markup is scheduled to include browser refresh script injection.
+ TRACE Connection id "0HN1GITPQSQ6K" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 1 with length 3170 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 1 with length 357 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 1 with length 65 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 1 with length 16 and flags NONE
+ DEBUG Response markup was updated to include Browser Link script injection.
+ DEBUG Response markup was updated to include browser refresh script injection.
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM
+ TRACE Connection id "0HN1GITPQSQ6K" received HEADERS frame for stream ID 3 with length 108 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE Connection id "0HN1GITPQSQ6K" received HEADERS frame for stream ID 5 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY
+ INFO Request starting HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - -
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/index.html - - - 200 - text/html;charset=utf-8 297.4158ms
+ INFO Request starting HTTP/2 GET https://localhost:5011/_vs/browserLink - -
+ TRACE Connection id "0HN1GITPQSQ6K" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 3 with length 12356 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 15.3100ms
+ TRACE Connection id "0HN1GITPQSQ6K" sending HEADERS frame for stream ID 5 with length 119 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 9986 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 160 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 77.1806ms
+ TRACE Connection id "0HN1GITPQSQ6K" received HEADERS frame for stream ID 7 with length 66 and flags END_STREAM, END_HEADERS, PRIORITY
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/v1/swagger.json - -
+ TRACE All hosts are allowed.
+ TRACE Connection id "0HN1GITPQSQ6K" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 7 with length 10480 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 148.3813ms
+ DEBUG Connection id "0HN1GITPQSQ6L" accepted.
+ DEBUG Connection id "0HN1GITPQSQ6L" started.
+ DEBUG Connection id "0HN1GITPQSQ6M" accepted.
+ DEBUG Connection id "0HN1GITPQSQ6M" started.
+ DEBUG Connection "0HN1GITPQSQ6M" established using the following protocol: Tls13
+ DEBUG Connection "0HN1GITPQSQ6L" established using the following protocol: Tls13
+ DEBUG Connection id "0HN1GITPQSQ6M" received FIN.
+ TRACE Connection id "0HN1GITPQSQ6L" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ TRACE Connection id "0HN1GITPQSQ6L" received SETTINGS frame for stream ID 0 with length 24 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK
+ TRACE Connection id "0HN1GITPQSQ6L" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ TRACE Connection id "0HN1GITPQSQ6L" received HEADERS frame for stream ID 1 with length 491 and flags END_STREAM, END_HEADERS, PRIORITY
+ DEBUG Connection id "0HN1GITPQSQ6M" is closed. The last processed stream ID was 0.
+ TRACE Connection id "0HN1GITPQSQ6L" received SETTINGS frame for stream ID 0 with length 0 and flags ACK
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger - -
+ DEBUG Connection id "0HN1GITPQSQ6M" sending FIN because: "The client closed the connection."
+ DEBUG Connection id "0HN1GITPQSQ6M" stopped.
+ TRACE All hosts are allowed.
+ TRACE Connection id "0HN1GITPQSQ6L" sending HEADERS frame for stream ID 1 with length 69 and flags END_STREAM, END_HEADERS
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger - - - 301 0 - 13.3897ms
+ TRACE Connection id "0HN1GITPQSQ6L" received HEADERS frame for stream ID 3 with length 37 and flags END_STREAM, END_HEADERS, PRIORITY
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/index.html - -
+ TRACE All hosts are allowed.
+ DEBUG Response markup is scheduled to include Browser Link script injection.
+ DEBUG Response markup is scheduled to include browser refresh script injection.
+ TRACE Connection id "0HN1GITPQSQ6L" sending HEADERS frame for stream ID 3 with length 28 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 3 with length 3170 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 3 with length 357 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 3 with length 65 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 3 with length 16 and flags NONE
+ DEBUG Response markup was updated to include Browser Link script injection.
+ DEBUG Response markup was updated to include browser refresh script injection.
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/index.html - - - 200 - text/html;charset=utf-8 7.4176ms
+ TRACE Connection id "0HN1GITPQSQ6L" received HEADERS frame for stream ID 5 with length 107 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE Connection id "0HN1GITPQSQ6L" received HEADERS frame for stream ID 7 with length 53 and flags END_STREAM, END_HEADERS, PRIORITY
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/swagger-ui.css - -
+ TRACE Connection id "0HN1GITPQSQ6L" received HEADERS frame for stream ID 9 with length 51 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE All hosts are allowed.
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/swagger-ui-bundle.js - -
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/swagger-ui-standalone-preset.js - -
+ TRACE Connection id "0HN1GITPQSQ6L" received HEADERS frame for stream ID 11 with length 52 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE All hosts are allowed.
+ TRACE All hosts are allowed.
+ INFO Request starting HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - -
+ TRACE Connection id "0HN1GITPQSQ6L" sending HEADERS frame for stream ID 11 with length 60 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 11 with length 12356 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 3.9903ms
+ TRACE Range header's value is empty.
+ TRACE Range header's value is empty.
+ TRACE Range header's value is empty.
+ TRACE Connection id "0HN1GITPQSQ6L" sending HEADERS frame for stream ID 7 with length 93 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6L" sending HEADERS frame for stream ID 9 with length 34 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6L" sending HEADERS frame for stream ID 5 with length 43 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ DEBUG Connection id "0HN1GITPQSQ6N" accepted.
+ DEBUG Connection id "0HN1GITPQSQ6N" started.
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 5 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 5 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 5 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 5 with length 16384 and flags NONE
+ DEBUG Connection "0HN1GITPQSQ6N" established using the following protocol: Tls13
+ TRACE Connection id "0HN1GITPQSQ6N" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" received SETTINGS frame for stream ID 0 with length 24 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" received HEADERS frame for stream ID 1 with length 269 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" received SETTINGS frame for stream ID 0 with length 0 and flags ACK
+ INFO Request starting HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - -
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending HEADERS frame for stream ID 1 with length 98 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 1 with length 12356 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 5 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 5 with length 16384 and flags NONE
+ INFO Request finished HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 8.9291ms
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 5 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 5 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 5 with length 11861 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" received HEADERS frame for stream ID 13 with length 34 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ INFO Request starting HTTP/2 GET https://localhost:5011/_vs/browserLink - -
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending HEADERS frame for stream ID 13 with length 119 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 9986 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 16384 and flags NONE
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/swagger-ui.css - - - 200 142933 text/css 222.5200ms
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 508 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 249.2876ms
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" received HEADERS frame for stream ID 3 with length 47 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/swagger-ui-standalone-preset.js - -
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE All hosts are allowed.
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Range header's value is empty.
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending HEADERS frame for stream ID 3 with length 123 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 160 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 508 and flags NONE
+ INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 159.5479ms
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 3302 and flags NONE
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 37.6039ms
+ INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 326.1620ms
+ TRACE Connection id "0HN1GITPQSQ6L" received HEADERS frame for stream ID 15 with length 67 and flags END_STREAM, END_HEADERS, PRIORITY
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/v1/swagger.json - -
+ TRACE All hosts are allowed.
+ TRACE Connection id "0HN1GITPQSQ6L" sending HEADERS frame for stream ID 15 with length 65 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 15 with length 10480 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.5529ms
+ TRACE Connection id "0HN1GITPQSQ6L" received HEADERS frame for stream ID 17 with length 97 and flags END_STREAM, END_HEADERS, PRIORITY
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/favicon-32x32.png - -
+ TRACE All hosts are allowed.
+ TRACE Range header's value is empty.
+ TRACE Connection id "0HN1GITPQSQ6L" sending HEADERS frame for stream ID 17 with length 41 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 17 with length 628 and flags NONE
+ INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+ TRACE Connection id "0HN1GITPQSQ6L" sending DATA frame for stream ID 17 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/favicon-32x32.png - - - 200 628 image/png 3.4235ms
+ TRACE Connection id "0HN1GITPQSQ6N" received HEADERS frame for stream ID 5 with length 30 and flags END_STREAM, END_HEADERS, PRIORITY
+ INFO Request starting HTTP/2 GET https://localhost:5011/_vs/browserLink - -
+ TRACE Connection id "0HN1GITPQSQ6N" received HEADERS frame for stream ID 7 with length 39 and flags END_STREAM, END_HEADERS, PRIORITY
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/swagger-ui-bundle.js - -
+ TRACE All hosts are allowed.
+ TRACE Range header's value is empty.
+ TRACE Connection id "0HN1GITPQSQ6N" sending HEADERS frame for stream ID 7 with length 34 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending HEADERS frame for stream ID 5 with length 119 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 9986 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 160 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 16384 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 3302 and flags NONE
+ INFO Request finished HTTP/2 GET https://localhost:5011/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 85.4651ms
+ INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+ TRACE Connection id "0HN1GITPQSQ6N" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 84.7996ms
+ TRACE Connection id "0HN1GITPQSQ6K" received HEADERS frame for stream ID 9 with length 83 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE Connection id "0HN1GITPQSQ6K" received PING frame for stream ID 0 with length 8 and flags NONE
+ INFO Request starting HTTP/2 GET https://localhost:5011/api/BasisAid - -
+ TRACE Connection id "0HN1GITPQSQ6K" sending PING frame for stream ID 0 with length 8 and flags ACK
+ TRACE All hosts are allowed.
+ DEBUG The request path  does not match the path filter
+ DEBUG 1 candidate(s) found for the request path '/api/BasisAid'
+ DEBUG Endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)' with route pattern 'api/BasisAid' is valid for the request path '/api/BasisAid'
+ DEBUG Request matched endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)'
+ INFO No cached response available for this request.
+ INFO Checking for conditional GET/HEAD.
+ INFO No saved response found in store.
+ INFO Don't generate 304 - Not Modified.  Continue.
+ INFO Checking for conditional PUT/PATCH.
+ INFO Not valid - method isn't PUT or PATCH.
+ INFO Don't generate 412 - Precondition Failed.  Continue.
+ INFO Executing endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)'
+ DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+ INFO Route matched with {action = "GettAll", controller = "BasisAid"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettAll() on controller Services.Aid.Controllers.BasisAidController (Services.Aid).
+ DEBUG Execution plan of authorization filters (in the following order): None
+ DEBUG Execution plan of resource filters (in the following order): None
+ DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter
+ DEBUG Execution plan of exception filters (in the following order): None
+ DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+ DEBUG Executing controller factory for controller Services.Aid.Controllers.BasisAidController (Services.Aid)
+ DEBUG Executed controller factory for controller Services.Aid.Controllers.BasisAidController (Services.Aid)
+ TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+ TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+ TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+ TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+ TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter.
+ TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter.
+ INFO Executing action method Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid) - Validation state: Valid
+ INFO Executed action method Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 395.6417ms.
+ TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter.
+ TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter.
+ TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+ TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+ TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+ TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+ TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+ TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+ TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+ DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+ DEBUG No information found on request to perform content negotiation.
+ DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+ DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+ DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+ INFO Executing ObjectResult, writing value of type 'Shared.Dtos.Response`1[[System.Collections.Generic.List`1[[Services.Aid.Dtos.BasisAidDto, Services.Aid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+ TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+ TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+ TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+ INFO Executed action Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid) in 1685.8331ms
+ INFO Executed endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)'
+ INFO Generating expiration headers.
+ INFO Expiration headers generated. Expires: Sun, 18 Feb 2024 15:38:33 GMT. Cache-Control: private,max-age=70.
+ INFO Generating Validation headers.
+ INFO Validation headers generated. ETag: Strong, "9B9175FB7B0258321A1EDD79052780F0". Last-Modified: Sun, 18 Feb 2024 15:37:23 GMT
+ INFO Generating Vary header.
+ INFO Vary header generated: Accept, Accept-Language, Accept-Encoding.
+ DEBUG Response is not cacheable because it does not contain the 'public' cache directive.
+ TRACE Connection id "0HN1GITPQSQ6K" sending HEADERS frame for stream ID 9 with length 226 and flags END_HEADERS
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 9 with length 280 and flags NONE
+ TRACE Connection id "0HN1GITPQSQ6K" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ INFO The response could not be cached for this request.
+ TRACE Connection id "0HN1GITPQSQ6K" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/api/BasisAid - - - 200 - application/json;+charset=utf-8 1990.5805ms
+ DEBUG Hosting starting
+ DEBUG Using development certificate: CN=localhost (Thumbprint: B66692DFC4255328F449673010F1EA3B950EE33A)
+ INFO Now listening on: https://localhost:5011
+ DEBUG Loaded hosting startup assembly Services.Aid
+ DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+ DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+ INFO Application started. Press Ctrl+C to shut down.
+ INFO Hosting environment: Development
+ INFO Content root path: C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid
+ DEBUG Hosting started
+ DEBUG Connection id "0HN1GIUOTN5F5" received FIN.
+ DEBUG Connection id "0HN1GIUOTN5F6" received FIN.
+ DEBUG Connection id "0HN1GIUOTN5F5" accepted.
+ DEBUG Connection id "0HN1GIUOTN5F6" accepted.
+ DEBUG Connection id "0HN1GIUOTN5F5" started.
+ DEBUG Connection id "0HN1GIUOTN5F6" started.
+ DEBUG Failed to authenticate HTTPS connection.
+ DEBUG Failed to authenticate HTTPS connection.
+ DEBUG Connection id "0HN1GIUOTN5F6" stopped.
+ DEBUG Connection id "0HN1GIUOTN5F5" stopped.
+ DEBUG Connection id "0HN1GIUOTN5F5" sending FIN because: "The Socket transport's send loop completed gracefully."
+ DEBUG Connection id "0HN1GIUOTN5F6" sending FIN because: "The Socket transport's send loop completed gracefully."
+ DEBUG Connection id "0HN1GIUOTN5F7" accepted.
+ DEBUG Connection id "0HN1GIUOTN5F7" started.
+ DEBUG Connection "0HN1GIUOTN5F7" established using the following protocol: Tls13
+ TRACE Connection id "0HN1GIUOTN5F7" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ TRACE Connection id "0HN1GIUOTN5F7" received SETTINGS frame for stream ID 0 with length 24 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK
+ TRACE Connection id "0HN1GIUOTN5F7" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ TRACE Connection id "0HN1GIUOTN5F7" received HEADERS frame for stream ID 1 with length 499 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE Connection id "0HN1GIUOTN5F7" received SETTINGS frame for stream ID 0 with length 0 and flags ACK
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/index.html - -
+ DEBUG Wildcard detected, all requests with hosts will be allowed.
+ TRACE All hosts are allowed.
+ DEBUG Response markup is scheduled to include Browser Link script injection.
+ DEBUG Response markup is scheduled to include browser refresh script injection.
+ TRACE Connection id "0HN1GIUOTN5F7" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 1 with length 3170 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 1 with length 357 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 1 with length 65 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 1 with length 16 and flags NONE
+ DEBUG Response markup was updated to include Browser Link script injection.
+ DEBUG Response markup was updated to include browser refresh script injection.
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/index.html - - - 200 - text/html;charset=utf-8 276.3636ms
+ TRACE Connection id "0HN1GIUOTN5F7" received HEADERS frame for stream ID 3 with length 109 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE Connection id "0HN1GIUOTN5F7" received HEADERS frame for stream ID 5 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY
+ INFO Request starting HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - -
+ INFO Request starting HTTP/2 GET https://localhost:5011/_vs/browserLink - -
+ TRACE Connection id "0HN1GIUOTN5F7" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 3 with length 12356 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 6.7114ms
+ TRACE Connection id "0HN1GIUOTN5F7" sending HEADERS frame for stream ID 5 with length 149 and flags END_HEADERS
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 9986 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 160 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.0969ms
+ TRACE Connection id "0HN1GIUOTN5F7" received HEADERS frame for stream ID 7 with length 67 and flags END_STREAM, END_HEADERS, PRIORITY
+ INFO Request starting HTTP/2 GET https://localhost:5011/swagger/v1/swagger.json - -
+ TRACE All hosts are allowed.
+ TRACE Connection id "0HN1GIUOTN5F7" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 7 with length 10480 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.5339ms
+ DEBUG Connection id "0HN1GIUOTN5F8" accepted.
+ DEBUG Connection id "0HN1GIUOTN5F8" started.
+ DEBUG Connection "0HN1GIUOTN5F8" established using the following protocol: Tls13
+ TRACE Connection id "0HN1GIUOTN5F8" sending SETTINGS frame for stream ID 0 with length 18 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ TRACE Connection id "0HN1GIUOTN5F8" received SETTINGS frame for stream ID 0 with length 24 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK
+ TRACE Connection id "0HN1GIUOTN5F8" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ TRACE Connection id "0HN1GIUOTN5F8" received HEADERS frame for stream ID 1 with length 269 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE Connection id "0HN1GIUOTN5F8" received HEADERS frame for stream ID 3 with length 54 and flags END_STREAM, END_HEADERS, PRIORITY
+ INFO Request starting HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - -
+ TRACE Connection id "0HN1GIUOTN5F8" received SETTINGS frame for stream ID 0 with length 0 and flags ACK
+ INFO Request starting HTTP/2 GET https://localhost:5011/_vs/browserLink - -
+ TRACE Connection id "0HN1GIUOTN5F8" sending HEADERS frame for stream ID 1 with length 98 and flags END_HEADERS
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 1 with length 12356 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 6.6008ms
+ TRACE Connection id "0HN1GIUOTN5F8" sending HEADERS frame for stream ID 3 with length 149 and flags END_HEADERS
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 9986 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 10240 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 160 and flags NONE
+ TRACE Connection id "0HN1GIUOTN5F8" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.2742ms
+ TRACE Connection id "0HN1GIUOTN5F7" received HEADERS frame for stream ID 9 with length 31 and flags END_STREAM, END_HEADERS, PRIORITY
+ TRACE Connection id "0HN1GIUOTN5F7" received PING frame for stream ID 0 with length 8 and flags NONE
+ INFO Request starting HTTP/2 GET https://localhost:5011/api/BasisAid - -
+ TRACE Connection id "0HN1GIUOTN5F7" sending PING frame for stream ID 0 with length 8 and flags ACK
+ TRACE All hosts are allowed.
+ DEBUG The request path  does not match the path filter
+ DEBUG 1 candidate(s) found for the request path '/api/BasisAid'
+ DEBUG Endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)' with route pattern 'api/BasisAid' is valid for the request path '/api/BasisAid'
+ DEBUG Request matched endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)'
+ INFO No cached response available for this request.
+ INFO Checking for conditional GET/HEAD.
+ INFO Not valid - no If-None-Match or If-Modified-Since headers.
+ INFO Don't generate 304 - Not Modified.  Continue.
+ INFO Checking for conditional PUT/PATCH.
+ INFO Not valid - method isn't PUT or PATCH.
+ INFO Don't generate 412 - Precondition Failed.  Continue.
+ INFO Executing endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)'
+ DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+ INFO Route matched with {action = "GettAll", controller = "BasisAid"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettAll() on controller Services.Aid.Controllers.BasisAidController (Services.Aid).
+ DEBUG Execution plan of authorization filters (in the following order): None
+ DEBUG Execution plan of resource filters (in the following order): None
+ DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter
+ DEBUG Execution plan of exception filters (in the following order): None
+ DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+ DEBUG Executing controller factory for controller Services.Aid.Controllers.BasisAidController (Services.Aid)
+ DEBUG Executed controller factory for controller Services.Aid.Controllers.BasisAidController (Services.Aid)
+ TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+ TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+ TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+ TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+ TRACE Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter.
+ TRACE Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter.
+ INFO Executing action method Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid) - Validation state: Valid
+ INFO Executed action method Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 335.6556ms.
+ TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter.
+ TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter.
+ TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+ TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+ TRACE Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+ TRACE Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+ TRACE Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+ TRACE Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+ TRACE Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+ DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+ DEBUG No information found on request to perform content negotiation.
+ DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+ DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+ DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+ INFO Executing ObjectResult, writing value of type 'Shared.Dtos.Response`1[[System.Collections.Generic.List`1[[Services.Aid.Dtos.BasisAidDto, Services.Aid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+ TRACE After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+ TRACE Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+ TRACE Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+ INFO Executed action Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid) in 1509.8438ms
+ INFO Executed endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)'
+ INFO Generating expiration headers.
+ INFO Expiration headers generated. Expires: Sun, 18 Feb 2024 15:40:19 GMT. Cache-Control: private,max-age=70.
+ INFO Generating Validation headers.
+ INFO Validation headers generated. ETag: Strong, "69B51574C5734307DA149E6C274ECF9C". Last-Modified: Sun, 18 Feb 2024 15:39:09 GMT
+ INFO Generating Vary header.
+ INFO Vary header generated: Accept, Accept-Language, Accept-Encoding.
+ DEBUG Response is not cacheable because it does not contain the 'public' cache directive.
+ TRACE Connection id "0HN1GIUOTN5F7" sending HEADERS frame for stream ID 9 with length 226 and flags END_HEADERS
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 9 with length 280 and flags NONE
+ INFO The response could not be cached for this request.
+ TRACE Connection id "0HN1GIUOTN5F7" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0
+ TRACE Connection id "0HN1GIUOTN5F7" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM
+ INFO Request finished HTTP/2 GET https://localhost:5011/api/BasisAid - - - 200 - application/json;+charset=utf-8 1783.4113ms
+--------------- 2024-02-18 18:50:50.3416 DEBUG Hosting starting
+--------------- 2024-02-18 18:50:50.8663 DEBUG Using development certificate: CN=localhost (Thumbprint: B66692DFC4255328F449673010F1EA3B950EE33A)
+--------------- 2024-02-18 18:50:50.9298 INFO Now listening on: https://localhost:5011
+--------------- 2024-02-18 18:50:50.9298 DEBUG Loaded hosting startup assembly Services.Aid
+--------------- 2024-02-18 18:50:50.9298 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+--------------- 2024-02-18 18:50:50.9298 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+--------------- 2024-02-18 18:50:50.9298 INFO Application started. Press Ctrl+C to shut down.
+--------------- 2024-02-18 18:50:50.9298 INFO Hosting environment: Development
+--------------- 2024-02-18 18:50:50.9298 INFO Content root path: C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid
+--------------- 2024-02-18 18:50:50.9298 DEBUG Hosting started
+--------------- 2024-02-18 18:50:50.9586 DEBUG Connection id "0HN1GJ5GTJK1H" received FIN.
+--------------- 2024-02-18 18:50:50.9586 DEBUG Connection id "0HN1GJ5GTJK1G" received FIN.
+--------------- 2024-02-18 18:50:50.9718 DEBUG Connection id "0HN1GJ5GTJK1G" accepted.
+--------------- 2024-02-18 18:50:50.9718 DEBUG Connection id "0HN1GJ5GTJK1H" accepted.
+--------------- 2024-02-18 18:50:50.9718 DEBUG Connection id "0HN1GJ5GTJK1H" started.
+--------------- 2024-02-18 18:50:50.9718 DEBUG Connection id "0HN1GJ5GTJK1G" started.
+--------------- 2024-02-18 18:50:51.0190 DEBUG Failed to authenticate HTTPS connection.
+--------------- 2024-02-18 18:50:51.0190 DEBUG Failed to authenticate HTTPS connection.
+--------------- 2024-02-18 18:50:51.0243 DEBUG Connection id "0HN1GJ5GTJK1G" stopped.
+--------------- 2024-02-18 18:50:51.0243 DEBUG Connection id "0HN1GJ5GTJK1H" stopped.
+--------------- 2024-02-18 18:50:51.0243 DEBUG Connection id "0HN1GJ5GTJK1H" sending FIN because: "The Socket transport's send loop completed gracefully."
+--------------- 2024-02-18 18:50:51.0243 DEBUG Connection id "0HN1GJ5GTJK1G" sending FIN because: "The Socket transport's send loop completed gracefully."
+--------------- 2024-02-18 18:50:51.3049 DEBUG Connection id "0HN1GJ5GTJK1I" accepted.
+--------------- 2024-02-18 18:50:51.3049 DEBUG Connection id "0HN1GJ5GTJK1I" started.
+--------------- 2024-02-18 18:50:51.3816 DEBUG Connection "0HN1GJ5GTJK1I" established using the following protocol: Tls13
+--------------- 2024-02-18 18:50:51.4300 INFO Request starting HTTP/2 GET https://localhost:5011/swagger/index.html - -
+--------------- 2024-02-18 18:50:51.5448 DEBUG Wildcard detected, all requests with hosts will be allowed.
+--------------- 2024-02-18 18:50:51.6758 DEBUG Response markup is scheduled to include Browser Link script injection.
+--------------- 2024-02-18 18:50:51.6758 DEBUG Response markup is scheduled to include browser refresh script injection.
+--------------- 2024-02-18 18:50:51.6959 DEBUG Response markup was updated to include Browser Link script injection.
+--------------- 2024-02-18 18:50:51.6959 DEBUG Response markup was updated to include browser refresh script injection.
+--------------- 2024-02-18 18:50:51.6959 INFO Request finished HTTP/2 GET https://localhost:5011/swagger/index.html - - - 200 - text/html;charset=utf-8 275.7659ms
+--------------- 2024-02-18 18:50:51.7310 INFO Request starting HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - -
+--------------- 2024-02-18 18:50:51.7310 INFO Request finished HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 5.9618ms
+--------------- 2024-02-18 18:50:51.8217 INFO Request starting HTTP/2 GET https://localhost:5011/_vs/browserLink - -
+--------------- 2024-02-18 18:50:51.8717 INFO Request finished HTTP/2 GET https://localhost:5011/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.0914ms
+--------------- 2024-02-18 18:50:52.0185 INFO Request starting HTTP/2 GET https://localhost:5011/swagger/v1/swagger.json - -
+--------------- 2024-02-18 18:50:52.1180 INFO Request finished HTTP/2 GET https://localhost:5011/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.4959ms
+--------------- 2024-02-18 18:50:58.1960 INFO Request starting HTTP/2 GET https://localhost:5011/api/BasisAid - -
+--------------- 2024-02-18 18:50:58.1960 DEBUG The request path  does not match the path filter
+--------------- 2024-02-18 18:50:58.2846 DEBUG 1 candidate(s) found for the request path '/api/BasisAid'
+--------------- 2024-02-18 18:50:58.2846 DEBUG Endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)' with route pattern 'api/BasisAid' is valid for the request path '/api/BasisAid'
+--------------- 2024-02-18 18:50:58.2920 DEBUG Request matched endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)'
+--------------- 2024-02-18 18:50:58.3063 INFO No cached response available for this request.
+--------------- 2024-02-18 18:50:58.3321 INFO Checking for conditional GET/HEAD.
+--------------- 2024-02-18 18:50:58.3481 INFO No saved response found in store.
+--------------- 2024-02-18 18:50:58.3481 INFO Don't generate 304 - Not Modified.  Continue.
+--------------- 2024-02-18 18:50:58.3481 INFO Checking for conditional PUT/PATCH.
+--------------- 2024-02-18 18:50:58.3534 INFO Not valid - method isn't PUT or PATCH.
+--------------- 2024-02-18 18:50:58.3534 INFO Don't generate 412 - Precondition Failed.  Continue.
+--------------- 2024-02-18 18:50:58.3534 INFO Executing endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)'
+--------------- 2024-02-18 18:50:58.3739 DEBUG Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+--------------- 2024-02-18 18:50:58.4460 INFO Route matched with {action = "GettAll", controller = "BasisAid"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GettAll() on controller Services.Aid.Controllers.BasisAidController (Services.Aid).
+--------------- 2024-02-18 18:50:58.4460 DEBUG Execution plan of authorization filters (in the following order): None
+--------------- 2024-02-18 18:50:58.4460 DEBUG Execution plan of resource filters (in the following order): None
+--------------- 2024-02-18 18:50:58.4460 DEBUG Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000), Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter
+--------------- 2024-02-18 18:50:58.4460 DEBUG Execution plan of exception filters (in the following order): None
+--------------- 2024-02-18 18:50:58.4460 DEBUG Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+--------------- 2024-02-18 18:50:58.4460 DEBUG Executing controller factory for controller Services.Aid.Controllers.BasisAidController (Services.Aid)
+--------------- 2024-02-18 18:50:59.5833 DEBUG Executed controller factory for controller Services.Aid.Controllers.BasisAidController (Services.Aid)
+--------------- 2024-02-18 18:50:59.9894 DEBUG List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+--------------- 2024-02-18 18:50:59.9945 DEBUG No information found on request to perform content negotiation.
+--------------- 2024-02-18 18:50:59.9945 DEBUG Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+--------------- 2024-02-18 18:50:59.9945 DEBUG Attempting to select the first formatter in the output formatters list which can write the result.
+--------------- 2024-02-18 18:50:59.9945 DEBUG Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+--------------- 2024-02-18 18:50:59.9945 INFO Executing ObjectResult, writing value of type 'Shared.Dtos.Response`1[[System.Collections.Generic.List`1[[Services.Aid.Dtos.BasisAidDto, Services.Aid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+--------------- 2024-02-18 18:51:00.0505 INFO Executed action Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid) in 1593.0613ms
+--------------- 2024-02-18 18:51:00.0505 INFO Executed endpoint 'Services.Aid.Controllers.BasisAidController.GettAll (Services.Aid)'
+--------------- 2024-02-18 18:51:00.0505 INFO Generating expiration headers.
+--------------- 2024-02-18 18:51:00.0505 INFO Expiration headers generated. Expires: Sun, 18 Feb 2024 15:52:10 GMT. Cache-Control: private,max-age=70.
+--------------- 2024-02-18 18:51:00.0505 INFO Generating Validation headers.
+--------------- 2024-02-18 18:51:00.0741 INFO Validation headers generated. ETag: Strong, "69B51574C5734307DA149E6C274ECF9C". Last-Modified: Sun, 18 Feb 2024 15:51:00 GMT
+--------------- 2024-02-18 18:51:00.0741 INFO Generating Vary header.
+--------------- 2024-02-18 18:51:00.0741 INFO Vary header generated: Accept, Accept-Language, Accept-Encoding.
+--------------- 2024-02-18 18:51:00.0864 DEBUG Response is not cacheable because it does not contain the 'public' cache directive.
+--------------- 2024-02-18 18:51:00.0864 INFO The response could not be cached for this request.
+--------------- 2024-02-18 18:51:00.0947 INFO Request finished HTTP/2 GET https://localhost:5011/api/BasisAid - - - 200 - application/json;+charset=utf-8 1898.8669ms
+--------------- 2024-02-18 18:51:08.6957 INFO Application is shutting down...
+--------------- 2024-02-18 18:51:08.6984 DEBUG Hosting stopping
+--------------- 2024-02-18 18:51:08.7768 DEBUG Connection id "0HN1GJ5GTJK1I" is closing.
+--------------- 2024-02-18 18:51:08.7768 DEBUG Connection id "0HN1GJ5GTJK1I" is closed. The last processed stream ID was 9.
+--------------- 2024-02-18 18:51:08.7768 DEBUG Connection id "0HN1GJ5GTJK1I" received FIN.
+--------------- 2024-02-18 18:51:08.7768 DEBUG Connection id "0HN1GJ5GTJK1I" sending FIN because: "The client closed the connection."
+--------------- 2024-02-18 18:51:08.7925 DEBUG Connection id "0HN1GJ5GTJK1I" stopped.
+--------------- 2024-02-18 18:51:08.7925 DEBUG Hosting stopped
+--------------- 2024-02-18 18:51:31.4306 DEBUG Hosting starting
+--------------- 2024-02-18 18:51:32.0819 DEBUG Using development certificate: CN=localhost (Thumbprint: B66692DFC4255328F449673010F1EA3B950EE33A)
+--------------- 2024-02-18 18:51:32.1494 INFO Now listening on: https://localhost:5011
+--------------- 2024-02-18 18:51:32.1494 DEBUG Loaded hosting startup assembly Services.Aid
+--------------- 2024-02-18 18:51:32.1494 DEBUG Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+--------------- 2024-02-18 18:51:32.1494 DEBUG Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+--------------- 2024-02-18 18:51:32.1494 INFO Application started. Press Ctrl+C to shut down.
+--------------- 2024-02-18 18:51:32.1494 INFO Hosting environment: Development
+--------------- 2024-02-18 18:51:32.1494 INFO Content root path: C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid
+--------------- 2024-02-18 18:51:32.1494 DEBUG Hosting started
+--------------- 2024-02-18 18:51:32.6824 DEBUG Connection id "0HN1GJ5TBGK4A" received FIN.
+--------------- 2024-02-18 18:51:32.6824 DEBUG Connection id "0HN1GJ5TBGK4B" received FIN.
+--------------- 2024-02-18 18:51:32.6824 DEBUG Connection id "0HN1GJ5TBGK4A" accepted.
+--------------- 2024-02-18 18:51:32.6824 DEBUG Connection id "0HN1GJ5TBGK4B" accepted.
+--------------- 2024-02-18 18:51:32.7007 DEBUG Connection id "0HN1GJ5TBGK4A" started.
+--------------- 2024-02-18 18:51:32.7007 DEBUG Connection id "0HN1GJ5TBGK4B" started.
+--------------- 2024-02-18 18:51:32.7338 DEBUG Failed to authenticate HTTPS connection.
+--------------- 2024-02-18 18:51:32.7338 DEBUG Failed to authenticate HTTPS connection.
+--------------- 2024-02-18 18:51:32.7419 DEBUG Connection id "0HN1GJ5TBGK4B" stopped.
+--------------- 2024-02-18 18:51:32.7419 DEBUG Connection id "0HN1GJ5TBGK4A" stopped.
+--------------- 2024-02-18 18:51:32.7419 DEBUG Connection id "0HN1GJ5TBGK4A" sending FIN because: "The Socket transport's send loop completed gracefully."
+--------------- 2024-02-18 18:51:32.7419 DEBUG Connection id "0HN1GJ5TBGK4B" sending FIN because: "The Socket transport's send loop completed gracefully."
+--------------- 2024-02-18 18:51:33.2728 DEBUG Connection id "0HN1GJ5TBGK4C" accepted.
+--------------- 2024-02-18 18:51:33.2766 DEBUG Connection id "0HN1GJ5TBGK4C" started.
+--------------- 2024-02-18 18:51:33.3444 DEBUG Connection "0HN1GJ5TBGK4C" established using the following protocol: Tls13
+--------------- 2024-02-18 18:51:33.3995 INFO Request starting HTTP/2 GET https://localhost:5011/swagger/index.html - -
+--------------- 2024-02-18 18:51:33.5316 DEBUG Wildcard detected, all requests with hosts will be allowed.
+--------------- 2024-02-18 18:51:33.6610 DEBUG Response markup is scheduled to include Browser Link script injection.
+--------------- 2024-02-18 18:51:33.6610 DEBUG Response markup is scheduled to include browser refresh script injection.
+--------------- 2024-02-18 18:51:33.6957 DEBUG Response markup was updated to include Browser Link script injection.
+--------------- 2024-02-18 18:51:33.6957 DEBUG Response markup was updated to include browser refresh script injection.
+--------------- 2024-02-18 18:51:33.7215 INFO Request starting HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - -
+--------------- 2024-02-18 18:51:33.7215 INFO Request finished HTTP/2 GET https://localhost:5011/swagger/index.html - - - 200 - text/html;charset=utf-8 319.9275ms
+--------------- 2024-02-18 18:51:33.7376 INFO Request finished HTTP/2 GET https://localhost:5011/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 15.9373ms
+--------------- 2024-02-18 18:51:33.7866 INFO Request starting HTTP/2 GET https://localhost:5011/_vs/browserLink - -
+--------------- 2024-02-18 18:51:33.8339 INFO Request finished HTTP/2 GET https://localhost:5011/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.4301ms
+--------------- 2024-02-18 18:51:33.9301 INFO Request starting HTTP/2 GET https://localhost:5011/swagger/v1/swagger.json - -
+--------------- 2024-02-18 18:51:34.0480 INFO Request finished HTTP/2 GET https://localhost:5011/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 118.0095ms

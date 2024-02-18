@@ -118,6 +118,7 @@ C:\Users\yusuf\Desktop\Bitirme\BitirmeProjesi\NaturalDisasters\Services\Aid\Serv
 C:\Users\yusuf\Desktop\Bitirme\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\Services.Aid.pdb
 C:\Users\yusuf\Desktop\Bitirme\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\Services.Aid.genruntimeconfig.cache
 C:\Users\yusuf\Desktop\Bitirme\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\ref\Services.Aid.dll
+C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\nlog.config
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\appsettings.json
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\Services.Aid.exe
@@ -129,6 +130,7 @@ C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\DnsClient.dll
+C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\Marvin.Cache.Headers.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
@@ -144,6 +146,8 @@ C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\MongoDB.Driver.Core.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\NLog.dll
+C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\NLog.Extensions.Logging.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\SharpCompress.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -172,9 +176,11 @@ C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Services.Aid.props
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Services.Aid.props
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\Services.Aid.RazorTargetAssemblyInfo.cache
-C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\Services.Aid.csproj.CopyComplete
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\Services.Aid.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\refint\Services.Aid.dll
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\Services.Aid.pdb
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\Services.Aid.genruntimeconfig.cache
 C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\ref\Services.Aid.dll
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\Services.Aid.sourcelink.json
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\Services.B0B568E5.Up2Date
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
