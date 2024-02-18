@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d/yrkkWYrvWhpby+WPJZqQJmeSGur9/Q+Tou2KG3nfgR5XbZODZLWPXvozhRvMg0pLeACsMYLELFuyjTz8Mw8Q==",
+  "dgSpecHash": "FaD+tac0SwFOsq+YCjCdLz8yW9+SZkNDew8NRucMQDZ1JE5d3KipCsYK1EO4a2EH35FxIo0gMfpgc3jOFRFrZw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj",
   "expectedPackageFiles": [
@@ -76,10 +76,7 @@
     "C:\\Users\\Yusuf\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
     "C:\\Users\\Yusuf\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512",
     "C:\\Users\\Yusuf\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "C:\\Users\\Yusuf\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
-    "C:\\Users\\Yusuf\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Yusuf\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Yusuf\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\Yusuf\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
   "logs": []
 }

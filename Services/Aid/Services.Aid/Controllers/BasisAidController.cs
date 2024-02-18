@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Services.Aid.Controllers
 {
-    //[ServiceFilter(typeof(LogFilterAttribute))]
+    [ServiceFilter(typeof(LogFilterAttribute))]
     [Route("api/[controller]")]
     [ApiController]
     [ResponseCache(CacheProfileName = "5mins")]

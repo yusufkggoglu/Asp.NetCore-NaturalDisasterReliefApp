@@ -184,3 +184,4 @@ C:\Users\yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\
 C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\Services.Aid.sourcelink.json
 C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\obj\Debug\net5.0\Services.B0B568E5.Up2Date
 C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\NLog.Web.AspNetCore.dll
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\Services\Aid\Services.Aid\bin\Debug\net5.0\AspNetCoreRateLimit.dll

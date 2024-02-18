@@ -1,3 +1,4 @@
+using AspNetCoreRateLimit;
 using Marvin.Cache.Headers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,13 +35,13 @@ namespace Services.Aid
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {   //logging
             var logPath = Path.Combine(Directory.GetCurrentDirectory(), "Logs");
             NLog.GlobalDiagnosticsContext.Set("LogDirectory", logPath);
-
             services.AddSingleton<ILoggerService, LoggerManager>();
             services.AddSingleton<LogFilterAttribute>();
             services.AddLogging();
+            //caching
             services.AddResponseCaching();
             services.AddHttpCacheHeaders(expirationOpt =>
             {
@@ -51,7 +52,28 @@ namespace Services.Aid
                 {
                     validationOpt.MustRevalidate = false;
                 }
-            ); 
+            );
+            //rate limit
+            services.AddMemoryCache();
+                    var rateLimitRules = new List<RateLimitRule>()
+            {
+                new RateLimitRule()
+                {
+                    Endpoint = "*",
+                    Limit = 3,  // 1 dakikada 3 istek atabilir.
+			        Period ="1m",
+                }
+            };
+            services.Configure<IpRateLimitOptions>(opt =>
+            {
+                opt.GeneralRules = rateLimitRules;
+            });
+            services.AddSingleton<IRateLimitCounterStore, MemoryCacheRateLimitCounterStore>();
+            services.AddSingleton<IIpPolicyStore, MemoryCacheIpPolicyStore>();
+            services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
+            services.AddSingleton<IProcessingStrategy, AsyncKeyLockProcessingStrategy>();
+            services.AddHttpContextAccessor();
+            //other record
             services.AddScoped<IBasisAidService, BasisAidService>();
             services.AddScoped<IHumaneAidService, HumaneAidService>();
             services.AddAutoMapper(typeof(Startup));
@@ -85,6 +107,7 @@ namespace Services.Aid
             app.UseResponseCaching();
             app.UseHttpCacheHeaders();
             app.UseAuthorization();
+            app.UseIpRateLimiting();
             var logger = app.ApplicationServices.GetRequiredService<ILoggerService>();
             app.ConfigureExceptionHandler(logger);
             app.UseEndpoints(endpoints =>
