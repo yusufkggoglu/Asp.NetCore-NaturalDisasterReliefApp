@@ -40,6 +40,10 @@ namespace Services.Aid
             NLog.GlobalDiagnosticsContext.Set("LogDirectory", logPath);
             services.AddSingleton<ILoggerService, LoggerManager>();
             services.AddSingleton<LogFilterAttribute>();
+
+            services.AddScoped<ValidationFilterAttribute>();
+            services.Configure<ApiBehaviorOptions>(options =>options.SuppressModelStateInvalidFilter = true);
+
             services.AddLogging();
             //caching
             services.AddResponseCaching();

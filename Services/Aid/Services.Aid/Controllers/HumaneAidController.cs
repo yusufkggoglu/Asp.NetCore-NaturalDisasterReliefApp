@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Services.Aid.ActionFilters;
 using Services.Aid.Dtos;
 using Services.Aid.Services;
 using Shared.ControllerBases;
@@ -7,8 +8,10 @@ using System.Threading.Tasks;
 
 namespace Services.Aid.Controllers
 {
+    [ServiceFilter(typeof(LogFilterAttribute))]
     [Route("api/[controller]")]
     [ApiController]
+    [ResponseCache(CacheProfileName = "5mins")]
     public class HumaneAidController : CustomControllerBase
     {
         public readonly IHumaneAidService _humaneAidService;
@@ -37,12 +40,14 @@ namespace Services.Aid.Controllers
             return CreateActionResultInstance(response);
         }
         [HttpPost]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> Create(HumaneAidCreateDto dto)
         {
             var response = await _humaneAidService.CreateAsync(dto);
             return CreateActionResultInstance(response);
         }
         [HttpPut]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> Update(HumaneAidUpdateDto dto)
         {
             var response = await _humaneAidService.UpdateAsync(dto);

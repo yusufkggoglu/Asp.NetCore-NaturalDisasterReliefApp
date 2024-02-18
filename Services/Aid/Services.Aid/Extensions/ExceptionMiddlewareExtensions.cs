@@ -21,7 +21,7 @@ namespace Services.Aid.Extensions
                     var contextFeature = context.Features.Get<IExceptionHandlerFeature>();
                     if (contextFeature != null)
                     {
-                        context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+                        //context.Response.StatusCode = StatusCodes.Status500InternalServerError;
                         //context.Response.StatusCode = contextFeature.Error switch
                         //{
                         //    NotFoundException => StatusCodes.Status404NotFound,

@@ -43,12 +43,14 @@ namespace Services.Aid.Controllers
             return CreateActionResultInstance(response);
         }
         [HttpPost]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> Create(BasisAidCreateDto createDto)
         {
             var response = await _basisAidService.CreateAsync(createDto); 
             return CreateActionResultInstance(response);
         }
-        [HttpPut] 
+        [HttpPut]
+        [ServiceFilter(typeof(ValidationFilterAttribute))
         public async Task<IActionResult> Update(BasisAidUpdateDto updateDto)
         {
             var response = await _basisAidService.UpdateAsync(updateDto);
