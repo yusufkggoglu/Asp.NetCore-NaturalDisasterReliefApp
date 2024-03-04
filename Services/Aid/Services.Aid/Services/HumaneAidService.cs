@@ -55,7 +55,7 @@ namespace Services.Aid.Services
         public async Task<Response<List<HumaneAidDto>>> GetAllByUserIdAsync(string userId)
         {
             var result = await _humaneAidCollection.Find(x => x.UserId == userId).ToListAsync();
-            if (result.Any())
+            if (!result.Any())
             {
                 result = new List<HumaneAid>();
             }

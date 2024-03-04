@@ -1,0 +1,77 @@
+2024-02-29 10:09:03.1390 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAll","Id":null,"CreateAt":"2024-02-29T07:09:03.1116766Z"}
+2024-02-29 10:09:03.5656 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 10:09:03.5782 ERROR Something went wrong : Element 'Location' does not match any field or property of class Services.Aid.Models.HumaneAid.
+2024-02-29 10:10:39.6371 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAll","Id":null,"CreateAt":"2024-02-29T07:10:39.6368966Z"}
+2024-02-29 10:10:47.3462 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:10:47.3461731Z"}
+2024-02-29 10:10:50.7449 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAll","Id":null,"CreateAt":"2024-02-29T07:10:50.7448354Z"}
+2024-02-29 10:17:49.0912 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAll","Id":null,"CreateAt":"2024-02-29T07:17:49.0722017Z"}
+2024-02-29 10:18:00.7653 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:18:00.7651818Z"}
+2024-02-29 10:18:48.1761 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:18:48.1761132Z"}
+2024-02-29 10:29:58.7715 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAll","Id":null,"CreateAt":"2024-02-29T07:29:58.7463846Z"}
+2024-02-29 10:30:09.7029 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:30:09.7028598Z"}
+2024-02-29 10:31:50.1059 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 10:31:50.1193 ERROR Something went wrong : Unable to cast object of type 'Shared.Dtos.Response`1[Shared.Dtos.NoContent]' to type 'Microsoft.AspNetCore.Mvc.IActionResult'.
+2024-02-29 10:34:22.7694 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:34:22.7383694Z"}
+2024-02-29 10:34:35.5527 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:34:35.5526199Z"}
+2024-02-29 10:35:02.3685 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:02.3685395Z"}
+2024-02-29 10:35:06.0216 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:06.0216312Z"}
+2024-02-29 10:35:07.0018 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:07.0018265Z"}
+2024-02-29 10:35:07.6390 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:07.6389521Z"}
+2024-02-29 10:35:30.9254 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:30.9253192Z"}
+2024-02-29 10:35:31.8074 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:31.8073236Z"}
+2024-02-29 10:35:32.4717 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:32.4717619Z"}
+2024-02-29 10:35:33.2406 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:33.2406211Z"}
+2024-02-29 10:35:33.8116 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:33.8115829Z"}
+2024-02-29 10:35:34.4103 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:34.4102681Z"}
+2024-02-29 10:35:34.8797 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:34.879684Z"}
+2024-02-29 10:35:57.4737 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:35:57.4576774Z"}
+2024-02-29 10:37:47.1666 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:37:47.1665167Z"}
+2024-02-29 10:37:48.0565 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:37:48.0564803Z"}
+2024-02-29 10:37:48.7989 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:37:48.7988988Z"}
+2024-02-29 10:38:09.9112 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:38:09.8899623Z"}
+2024-02-29 10:46:49.3423 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T07:46:49.3156203Z"}
+2024-02-29 10:47:42.1458 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"asdasd","CreateAt":"2024-02-29T07:47:42.1356046Z"}
+2024-02-29 10:47:42.3920 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 10:47:42.3920 ERROR Something went wrong : 'asdasd' is not a valid 24 digit hex string.
+2024-02-29 10:50:31.6114 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"123123","CreateAt":"2024-02-29T07:50:31.5793408Z"}
+2024-02-29 10:50:32.0568 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 10:50:32.0747 ERROR Something went wrong : '123123' is not a valid 24 digit hex string.
+2024-02-29 10:52:13.7848 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"123123","CreateAt":"2024-02-29T07:52:13.758376Z"}
+2024-02-29 10:52:14.2411 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 10:52:14.2566 ERROR Something went wrong : '123123' is not a valid 24 digit hex string.
+2024-02-29 10:52:59.1389 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"1","CreateAt":"2024-02-29T07:52:59.1050123Z"}
+2024-02-29 10:52:59.5465 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 10:52:59.5651 ERROR Something went wrong : '1' is not a valid 24 digit hex string.
+2024-02-29 10:56:21.0925 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"1","CreateAt":"2024-02-29T07:56:20.9687847Z"}
+2024-02-29 10:56:21.4954 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 10:56:21.5124 ERROR Something went wrong : '1' is not a valid 24 digit hex string.
+2024-02-29 10:56:36.5932 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAll","Id":null,"CreateAt":"2024-02-29T07:56:36.5931647Z"}
+2024-02-29 10:56:42.1529 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"65e02df7432c965ae86d1b9b","CreateAt":"2024-02-29T07:56:42.1525878Z"}
+2024-02-29 10:56:54.2895 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"65e02df7432c965ae86d1b9c","CreateAt":"2024-02-29T07:56:54.2894961Z"}
+2024-02-29 11:05:20.1501 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"65e02df7432c965ae86d1b9c","CreateAt":"2024-02-29T08:05:20.1500354Z"}
+2024-02-29 11:05:27.0485 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"65e02df7432c965ae86","CreateAt":"2024-02-29T08:05:27.0483597Z"}
+2024-02-29 11:05:27.1793 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 11:05:27.1793 ERROR Something went wrong : '65e02df7432c965ae86' is not a valid 24 digit hex string.
+2024-02-29 11:06:36.8209 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"65e02df7432c965ae86s","CreateAt":"2024-02-29T08:06:36.8208922Z"}
+2024-02-29 11:06:36.9898 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 11:06:36.9898 ERROR Something went wrong : '65e02df7432c965ae86s' is not a valid 24 digit hex string.
+2024-02-29 11:06:41.7603 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"65e02df7432c965ae86ss","CreateAt":"2024-02-29T08:06:41.7602925Z"}
+2024-02-29 11:06:41.8967 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 11:06:41.8967 ERROR Something went wrong : '65e02df7432c965ae86ss' is not a valid 24 digit hex string.
+2024-02-29 11:06:45.3183 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"65e02df7432c965ae86sss","CreateAt":"2024-02-29T08:06:45.3182076Z"}
+2024-02-29 11:06:45.4330 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 11:06:45.4330 ERROR Something went wrong : '65e02df7432c965ae86sss' is not a valid 24 digit hex string.
+2024-02-29 11:06:56.9180 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"65e02df7432c965ae86d1b9c","CreateAt":"2024-02-29T08:06:56.9179917Z"}
+2024-02-29 11:11:52.8355 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAll","Id":null,"CreateAt":"2024-02-29T08:11:52.8180329Z"}
+2024-02-29 11:18:11.9075 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-29T08:18:11.8823208Z"}
+2024-02-29 11:18:23.3034 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T08:18:23.3032958Z"}
+2024-02-29 11:18:32.4065 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"Create","Id":null,"CreateAt":"2024-02-29T08:18:32.4065125Z"}
+2024-02-29 11:18:41.3042 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-02-29T08:18:41.3041447Z"}
+2024-02-29 11:24:52.6575 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65e03dd8186c4db5a45465f3","CreateAt":"2024-02-29T08:24:52.657119Z"}
+2024-02-29 11:24:57.2626 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"a","CreateAt":"2024-02-29T08:24:57.2625463Z"}
+2024-02-29 11:24:57.5315 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 11:24:57.5464 ERROR Something went wrong : 'a' is not a valid 24 digit hex string.
+2024-02-29 11:25:11.2206 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65e03dd8186c4db5a45465f4","CreateAt":"2024-02-29T08:25:11.2206288Z"}
+2024-02-29 11:25:17.4091 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65e03dd8186c4db5a45465f365e03dd8186c4db5a45465f3","CreateAt":"2024-02-29T08:25:17.4091405Z"}
+2024-02-29 11:25:17.5377 ERROR An unhandled exception has occurred while executing the request.
+2024-02-29 11:25:17.5377 ERROR Something went wrong : '65e03dd8186c4db5a45465f365e03dd8186c4db5a45465f3' is not a valid 24 digit hex string.

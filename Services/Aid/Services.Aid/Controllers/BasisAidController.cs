@@ -50,7 +50,7 @@ namespace Services.Aid.Controllers
             return CreateActionResultInstance(response);
         }
         [HttpPut]
-        [ServiceFilter(typeof(ValidationFilterAttribute))
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
         public async Task<IActionResult> Update(BasisAidUpdateDto updateDto)
         {
             var response = await _basisAidService.UpdateAsync(updateDto);

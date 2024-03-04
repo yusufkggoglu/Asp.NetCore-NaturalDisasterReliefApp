@@ -34,9 +34,9 @@ namespace Services.Aid.Controllers
         }
         [HttpGet]
         [Route("/api/[controller]/GetAllByUserId/{userId}")]
-        public async Task<IActionResult> GetAllByUserId(string id)
+        public async Task<IActionResult> GetAllByUserId(string userId)
         {
-            var response = await _humaneAidService.GetAllByUserIdAsync(id);
+            var response = await _humaneAidService.GetAllByUserIdAsync(userId);
             return CreateActionResultInstance(response);
         }
         [HttpPost]

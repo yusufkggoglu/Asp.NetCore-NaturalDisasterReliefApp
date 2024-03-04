@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using Services.Aid.Logging;
 using Services.Aid.Models;
+using Shared.Dtos;
 using System.Runtime.CompilerServices;
 
 namespace Services.Aid.Extensions
@@ -27,12 +29,9 @@ namespace Services.Aid.Extensions
                         //    NotFoundException => StatusCodes.Status404NotFound,
                         //    _ => StatusCodes.Status500InternalServerError
                         //};
+
                         logger.LogError($"Something went wrong : {contextFeature.Error.Message}");
-                        var response = new ErrorDetails()
-                        {
-                            StatusCode = context.Response.StatusCode,
-                            Message = contextFeature.Error.Message
-                        }.ToString();
+                        var response = Response<NoContent>.Fail(contextFeature.Error.Message, 404).ToString();
                         await context.Response.WriteAsync(response);
                     }
                 });

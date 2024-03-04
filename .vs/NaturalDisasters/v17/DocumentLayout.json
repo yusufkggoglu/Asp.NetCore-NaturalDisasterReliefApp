@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\services\\aid\\services.aid\\controllers\\humaneaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|solutionrelative:services\\aid\\services.aid\\controllers\\humaneaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\services\\aid\\services.aid\\controllers\\basisaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|solutionrelative:services\\aid\\services.aid\\controllers\\basisaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\services\\aid\\services.aid\\actionfilters\\validationfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|solutionrelative:services\\aid\\services.aid\\actionfilters\\validationfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\services\\aid\\services.aid\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|solutionrelative:services\\aid\\services.aid\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HumaneAidController.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Controllers\\HumaneAidController.cs",
-              "RelativeDocumentMoniker": "Services\\Aid\\Services.Aid\\Controllers\\HumaneAidController.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Controllers\\HumaneAidController.cs",
-              "RelativeToolTip": "Services\\Aid\\Services.Aid\\Controllers\\HumaneAidController.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAA3wDEAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T20:58:23.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BasisAidController.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Controllers\\BasisAidController.cs",
-              "RelativeDocumentMoniker": "Services\\Aid\\Services.Aid\\Controllers\\BasisAidController.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Controllers\\BasisAidController.cs",
-              "RelativeToolTip": "Services\\Aid\\Services.Aid\\Controllers\\BasisAidController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T20:43:45.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ValidationFilterAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\ActionFilters\\ValidationFilterAttribute.cs",
-              "RelativeDocumentMoniker": "Services\\Aid\\Services.Aid\\ActionFilters\\ValidationFilterAttribute.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\ActionFilters\\ValidationFilterAttribute.cs",
-              "RelativeToolTip": "Services\\Aid\\Services.Aid\\ActionFilters\\ValidationFilterAttribute.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T20:10:10.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Startup.cs",
-              "RelativeDocumentMoniker": "Services\\Aid\\Services.Aid\\Startup.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Startup.cs",
-              "RelativeToolTip": "Services\\Aid\\Services.Aid\\Startup.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAIwC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-18T17:34:48.024Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

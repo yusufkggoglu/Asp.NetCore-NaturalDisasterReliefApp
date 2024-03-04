@@ -64,7 +64,7 @@ namespace Services.Aid
                 new RateLimitRule()
                 {
                     Endpoint = "*",
-                    Limit = 3,  // 1 dakikada 3 istek atabilir.
+                    Limit = 100,  
 			        Period ="1m",
                 }
             };

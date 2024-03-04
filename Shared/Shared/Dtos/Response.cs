@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 
 namespace Shared.Dtos
@@ -35,6 +36,10 @@ namespace Shared.Dtos
         public static Response<T> Fail(string error, int statusCode)
         {
             return new Response<T> { Errors = new List<string>() { error }, StatusCode = statusCode, IsSuccessful = false };
+        }
+        public override string ToString()
+        {
+            return JsonSerializer.Serialize(this);
         }
     }
 
