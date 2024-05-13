@@ -6,7 +6,6 @@ namespace Services.Aid.Dtos
     public class BasisAidUpdateDto
     {
         public string Id { get; set; }
-        [Required]
         public string UserId { get; set; }
         [Required]
         [DataType(DataType.Text)]
@@ -43,10 +42,6 @@ namespace Services.Aid.Dtos
         [Range(1, 1000)]
         [Required]
         public int Amount { get; set; }
-        [DataType(DataType.Text)]
-        [Required]
-        public string Picture { get; set; }
-        [Required]
         public bool Status { get; set; }
     }
 }

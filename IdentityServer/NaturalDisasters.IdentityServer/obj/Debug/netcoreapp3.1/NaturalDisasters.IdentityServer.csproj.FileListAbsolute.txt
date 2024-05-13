@@ -143,3 +143,11 @@ C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityS
 C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityServer\NaturalDisasters.IdentityServer\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityServer\NaturalDisasters.IdentityServer\bin\Debug\netcoreapp3.1\Shared.dll
 C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityServer\NaturalDisasters.IdentityServer\bin\Debug\netcoreapp3.1\Shared.pdb
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityServer\NaturalDisasters.IdentityServer\bin\Debug\netcoreapp3.1\System.Private.ServiceModel.dll
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityServer\NaturalDisasters.IdentityServer\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityServer\NaturalDisasters.IdentityServer\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityServer\NaturalDisasters.IdentityServer\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityServer\NaturalDisasters.IdentityServer\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityServer\NaturalDisasters.IdentityServer\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityServer\NaturalDisasters.IdentityServer\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\Yusuf\Desktop\bitirme-projesi\BitirmeProjesi\NaturalDisasters\IdentityServer\NaturalDisasters.IdentityServer\bin\Debug\netcoreapp3.1\Connected Services\KpsPublic\ConnectedService.json

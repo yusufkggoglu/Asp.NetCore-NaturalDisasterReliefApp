@@ -1,0 +1,7 @@
+2024-04-05 14:07:49.0433 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-04-05T11:07:49.0102554Z"}
+2024-04-05 14:07:52.7664 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetById","Id":"65f7fa634a233146ed05a9fe","CreateAt":"2024-04-05T11:07:52.7663143Z"}
+2024-04-05 14:09:16.6277 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetAllByUserId","Id":null,"CreateAt":"2024-04-05T11:09:16.627723Z"}
+2024-04-05 14:09:16.6277 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAllByUserId","Id":null,"CreateAt":"2024-04-05T11:09:16.6278908Z"}
+2024-04-05 14:10:27.9347 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetAllByUserId","Id":null,"CreateAt":"2024-04-05T11:10:27.9347339Z"}
+2024-04-05 14:10:27.9347 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAllByUserId","Id":null,"CreateAt":"2024-04-05T11:10:27.9374263Z"}
+2024-04-05 14:10:28.6843 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetById","Id":"65f42bb1e35d85869452820e","CreateAt":"2024-04-05T11:10:28.6843069Z"}

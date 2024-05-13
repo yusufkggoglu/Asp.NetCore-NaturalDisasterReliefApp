@@ -108,7 +108,7 @@ namespace Services.Aid
             app.UseHttpsRedirection();
 
             app.UseRouting();
-            app.UseResponseCaching();
+            //app.UseResponseCaching();
             app.UseHttpCacheHeaders();
             app.UseAuthorization();
             app.UseIpRateLimiting();

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Yeni Profil",
+    "Projects": [
+      {
+        "Name": "Services\\Aid\\Services.Aid\\Services.Aid.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -12,6 +12,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using NaturalDisasters.IdentityServer.ActionFilters;
 
 namespace NaturalDisasters.IdentityServer
 {
@@ -28,7 +30,7 @@ namespace NaturalDisasters.IdentityServer
 
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddLocalApiAuthentication();
+            services.AddLocalApiAuthentication();
             services.AddControllersWithViews();
 
             services.AddDbContext<ApplicationDbContext>(options =>
@@ -37,6 +39,9 @@ namespace NaturalDisasters.IdentityServer
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
+
+            services.AddScoped<ValidationFilter>();
+            services.Configure<ApiBehaviorOptions>(options => options.SuppressModelStateInvalidFilter = true);
 
             var builder = services.AddIdentityServer(options =>
             {
@@ -60,7 +65,7 @@ namespace NaturalDisasters.IdentityServer
                 .AddGoogle(options =>
                 {
                     options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
-                    
+
                     // register your IdentityServer with Google at https://console.developers.google.com
                     // enable the Google+ API
                     // set the redirect URI to https://localhost:5001/signin-google
@@ -81,7 +86,7 @@ namespace NaturalDisasters.IdentityServer
 
             app.UseRouting();
             app.UseIdentityServer();
-            //app.UseAuthentication();
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {

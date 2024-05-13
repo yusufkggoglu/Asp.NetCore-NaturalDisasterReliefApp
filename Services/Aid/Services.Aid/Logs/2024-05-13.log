@@ -1,0 +1,5 @@
+2024-05-13 10:26:00.4251 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAll","Id":null,"CreateAt":"2024-05-13T07:26:00.3721718Z"}
+2024-05-13 11:47:37.5729 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GettAll","Id":null,"CreateAt":"2024-05-13T08:47:37.5139665Z"}
+2024-05-13 13:03:46.9703 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAll","Id":null,"CreateAt":"2024-05-13T10:03:46.9370106Z"}
+2024-05-13 14:00:12.5496 ERROR {"Model":"OnActionExecuting","Controller":"HumaneAid","Action":"GetAllByUserId","Id":null,"CreateAt":"2024-05-13T11:00:12.5461854Z"}
+2024-05-13 14:00:12.5496 ERROR {"Model":"OnActionExecuting","Controller":"BasisAid","Action":"GetAllByUserId","Id":null,"CreateAt":"2024-05-13T11:00:12.5461803Z"}

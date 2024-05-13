@@ -6,6 +6,7 @@ namespace Services.Aid.Models
 {
     public class BasisAid
     {
+
         [BsonId] // MongoDB tarafında ID olarak algılanması için gerekli.
         [BsonRepresentation(BsonType.ObjectId)] // ID'nin tipi için gerekli. (string)
         public string Id { get; set; }
@@ -20,7 +21,6 @@ namespace Services.Aid.Models
         public string SubTitle { get; set; }
         public string Description { get; set; }
         public int Amount { get; set; }
-        public string Picture { get; set; }
         public bool Status { get; set; }
         [BsonRepresentation(BsonType.DateTime)]
         public DateTime CreatedTime { get; set; }
