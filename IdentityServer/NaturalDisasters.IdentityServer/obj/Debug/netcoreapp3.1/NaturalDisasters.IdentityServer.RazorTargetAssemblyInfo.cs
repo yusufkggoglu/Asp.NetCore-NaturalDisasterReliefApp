@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("NaturalDisasters.IdentityServer")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15264963dd39aab933eaf2b87389ded96e98cff0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9509be9e98506d85cb2f74d3ddf953e6b7082cfb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NaturalDisasters.IdentityServer.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

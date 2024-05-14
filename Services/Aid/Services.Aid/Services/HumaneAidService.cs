@@ -82,5 +82,12 @@ namespace Services.Aid.Services
             }
             return Response<NoContent>.Success(204);
         }
+
+        public async Task DeleteOldData()
+        {
+            var thresholdDate = DateTime.Now.AddDays(-30); // 30 gün önceki tarih
+
+            await _humaneAidCollection.DeleteManyAsync(data => data.CreatedTime < thresholdDate);
+        }
     }
 }

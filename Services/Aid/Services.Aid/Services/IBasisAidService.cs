@@ -13,5 +13,6 @@ namespace Services.Aid.Services
         public Task<Response<NoContent>> UpdateAsync(BasisAidUpdateDto basisAidUpdateDto);
         public Task<Response<BasisAidDto>> CreateAsync(BasisAidCreateDto basisAidCreateDto);
         public Task<Response<NoContent>> DeleteAsync(string id);
+        public Task DeleteOldData();
     }
 }

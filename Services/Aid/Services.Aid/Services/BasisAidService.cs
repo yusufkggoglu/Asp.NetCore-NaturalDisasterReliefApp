@@ -4,6 +4,7 @@ using Services.Aid.Dtos;
 using Services.Aid.Models;
 using Services.Aid.Settings;
 using Shared.Dtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -84,6 +85,13 @@ namespace Services.Aid.Services
             }
 
             return Response<NoContent>.Success(204);
+        }
+
+        public async Task DeleteOldData()
+        {
+            var thresholdDate = DateTime.Now.AddDays(-365); // 30 gün önceki tarih
+
+            await _basisAidCollection.DeleteManyAsync(data => data.CreatedTime < thresholdDate);
         }
     }
 }

@@ -13,5 +13,6 @@ namespace Services.Aid.Services
         public Task<Response<NoContent>> UpdateAsync(HumaneAidUpdateDto humaneAidUpdateDto);
         public Task<Response<HumaneAidDto>> CreateAsync(HumaneAidCreateDto humaneAidCreateDto);
         public Task<Response<NoContent>> DeleteAsync(string id);
+        public Task DeleteOldData();
     }
 }
