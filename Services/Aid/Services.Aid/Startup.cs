@@ -1,9 +1,12 @@
 using AspNetCoreRateLimit;
 using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -18,6 +21,7 @@ using Services.Aid.Services;
 using Services.Aid.Settings;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
@@ -86,9 +90,27 @@ namespace Services.Aid
             {
                 return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
             });
-            services.AddControllers(config => {
-                config.CacheProfiles.Add("5mins", new CacheProfile() { Duration = 300 });
+            var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+            {
+                opt.Authority = Configuration["IdentityServerURL"];
+                opt.Audience = "resource_aid";
+                opt.RequireHttpsMetadata = false;
             });
+            services.AddControllers(config =>
+            {
+                config.CacheProfiles.Add("5mins", new CacheProfile() { Duration = 300 });
+                config.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
+
+            });
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
+                options.AddPolicy("RequireUserRole", policy => policy.RequireRole("User"));
+                // Diðer roller için benzer politikalar ekleyebilirsiniz.
+            });
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Services.Aid", Version = "v1" });
@@ -110,6 +132,8 @@ namespace Services.Aid
             app.UseRouting();
             //app.UseResponseCaching();
             app.UseHttpCacheHeaders();
+            app.UseAuthentication();
+
             app.UseAuthorization();
             app.UseIpRateLimiting();
             var logger = app.ApplicationServices.GetRequiredService<ILoggerService>();

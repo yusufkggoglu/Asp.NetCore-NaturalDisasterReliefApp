@@ -48,15 +48,30 @@ namespace NaturalDisasters.IdentityServer
                     var serviceProvider = scope.ServiceProvider;
                     var applicationDbContext = serviceProvider.GetRequiredService<ApplicationDbContext>();
                     applicationDbContext.Database.Migrate();
+
                     var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+                    var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+                    if (!roleManager.Roles.Any())
+                    {
+                        roleManager.CreateAsync(new IdentityRole("Admin")).Wait();
+                        roleManager.CreateAsync(new IdentityRole("User")).Wait();
+                    }
+
                     if (!userManager.Users.Any())
                     {
-                        userManager.CreateAsync(new ApplicationUser
+                        var user = new ApplicationUser
                         {
                             UserName = "yusufkggoglu",
                             Email = "yusufcankggoglu@gmail.com",
                             City = "Kocaeli"
-                        }, "Password123*").Wait();
+                        };
+                        var result = userManager.CreateAsync(user, "Password123*").Result;
+
+                        if (result.Succeeded)
+                        {
+                            userManager.AddToRoleAsync(user, "Admin").Wait();
+                        }
                     }
                 }
 

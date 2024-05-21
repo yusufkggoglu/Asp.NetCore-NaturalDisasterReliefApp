@@ -13,7 +13,7 @@ namespace NaturalDisasters.IdentityServer
     {
         public static IEnumerable<ApiResource> ApiResources => new ApiResource[]
       {
-            new ApiResource("resource_aid") { Scopes = { "aid_create_update_delete_permission" }},
+            new ApiResource("resource_aid") { Scopes = { "aid_fullpermission" }},
             new ApiResource("resource_photo_stock") { Scopes = { "photo_stock_fullpermission" }},
 
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
@@ -36,7 +36,7 @@ namespace NaturalDisasters.IdentityServer
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
             {
-                new ApiScope("aid_create_update_delete_permission","Aid API için sınırlı erişim"),
+                new ApiScope("aid_fullpermission","Aid API için sınırlı erişim"),
                 new ApiScope("photo_stock_fullpermission","Photo Stock API için full erişim"),
 
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
@@ -53,7 +53,7 @@ namespace NaturalDisasters.IdentityServer
                     ClientSecrets = {new Secret("secret".Sha256())},
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword, //refresh token var
                     AllowedScopes = {
-                        "aid_create_update_delete_permission",
+                        "aid_fullpermission",
                         "photo_stock_fullpermission",
                          IdentityServerConstants.StandardScopes.Email,
                          IdentityServerConstants.StandardScopes.OpenId,

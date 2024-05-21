@@ -21,10 +21,13 @@ namespace NaturalDisasters.IdentityServer.Controllers
     public class UserController : ControllerBase
     {
         private readonly UserManager<ApplicationUser> _userManager;
-        public UserController(UserManager<ApplicationUser> userManager)
+        private readonly RoleManager<IdentityRole> _roleManager;
+        public UserController(UserManager<ApplicationUser> userManager,RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
+            _roleManager = roleManager;
         }
+
         [HttpPost]
         [AllowAnonymous]
         [ServiceFilter(typeof(ValidationFilter))]
@@ -37,6 +40,20 @@ namespace NaturalDisasters.IdentityServer.Controllers
                                      .ToList();
                 return BadRequest(new { errors });
             }
+
+            // Kullanıcı adı ve e-posta kontrolü
+            var existingUserByEmail = await _userManager.FindByEmailAsync(signUpDto.Email);
+            if (existingUserByEmail != null)
+            {
+                return BadRequest(Response<NoContent>.Fail("Email zaten kayıtlı.", 400));
+            }
+
+            var existingUserByUsername = await _userManager.FindByNameAsync(signUpDto.UserName);
+            if (existingUserByUsername != null)
+            {
+                return BadRequest(Response<NoContent>.Fail("Kullanıcı adı zaten kayıtlı.", 400));
+            }
+
             ServiceKpsPublic serviceKpsPublic = new ServiceKpsPublic();
             var serviceResult = await serviceKpsPublic.OnGetService(signUpDto.TC,signUpDto.Name,signUpDto.Surname,signUpDto.BirthYear);
             if (serviceResult)
@@ -55,6 +72,14 @@ namespace NaturalDisasters.IdentityServer.Controllers
                 {
                     return BadRequest(Response<NoContent>.Fail(result.Errors.Select(x => x.Description).ToList(), 400));
                 }
+
+                if (!await _roleManager.RoleExistsAsync("User"))
+                {
+                    await _roleManager.CreateAsync(new IdentityRole("User"));
+                }
+
+                await _userManager.AddToRoleAsync(user, "User");
+
                 return NoContent();
             } 
             else if (!serviceResult)
@@ -129,5 +154,29 @@ namespace NaturalDisasters.IdentityServer.Controllers
             }
             return BadRequest();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AssignRoleToUser([FromBody] AssignRoleModel model)
+        {
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+
+            var result = await _userManager.AddToRoleAsync(user, model.Role);
+            if (!result.Succeeded)
+            {
+                return BadRequest(result.Errors);
+            }
+
+            return Ok("Role assigned successfully");
+        }
     }
+}
+
+public class AssignRoleModel
+{
+    public string Email { get; set; }
+    public string Role { get; set; }
 }
