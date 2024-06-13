@@ -90,26 +90,26 @@ namespace Services.Aid
             {
                 return sp.GetRequiredService<IOptions<DatabaseSettings>>().Value;
             });
-            var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
-            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
-            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
-            {
-                opt.Authority = Configuration["IdentityServerURL"];
-                opt.Audience = "resource_aid";
-                opt.RequireHttpsMetadata = false;
-            });
+            //var requireAuthorizePolicy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+            //JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Remove("sub");
+            //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opt =>
+            //{
+            //    opt.Authority = Configuration["IdentityServerURL"];
+            //    opt.Audience = "resource_aid";
+            //    opt.RequireHttpsMetadata = false;
+            //});
             services.AddControllers(config =>
             {
                 config.CacheProfiles.Add("5mins", new CacheProfile() { Duration = 300 });
-                config.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
+                //config.Filters.Add(new AuthorizeFilter(requireAuthorizePolicy));
 
             });
-            services.AddAuthorization(options =>
-            {
-                options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
-                options.AddPolicy("RequireUserRole", policy => policy.RequireRole("User"));
-                // Diðer roller için benzer politikalar ekleyebilirsiniz.
-            });
+            //services.AddAuthorization(options =>
+            //{
+            //    options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
+            //    options.AddPolicy("RequireUserRole", policy => policy.RequireRole("User"));
+            //    // Diðer roller için benzer politikalar ekleyebilirsiniz.
+            //});
 
             services.AddSwaggerGen(c =>
             {
@@ -134,7 +134,7 @@ namespace Services.Aid
             app.UseHttpCacheHeaders();
             app.UseAuthentication();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
             app.UseIpRateLimiting();
             var logger = app.ApplicationServices.GetRequiredService<ILoggerService>();
             app.ConfigureExceptionHandler(logger);

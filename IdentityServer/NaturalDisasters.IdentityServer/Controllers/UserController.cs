@@ -124,7 +124,8 @@ namespace NaturalDisasters.IdentityServer.Controllers
             user.City = userDto.City;
             user.Email = userDto.Email;
             user.UserName = userDto.UserName;
-            user.Name= userDto.Name;
+            //user.Name= userDto.Name;
+            //user.Surname = userDto.Surname;
             user.PhoneNumber = userDto.PhoneNumber;
             var result = await _userManager.UpdateAsync(user);
             if (result.Succeeded)
