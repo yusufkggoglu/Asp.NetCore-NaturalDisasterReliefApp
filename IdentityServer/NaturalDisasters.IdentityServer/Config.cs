@@ -15,6 +15,8 @@ namespace NaturalDisasters.IdentityServer
       {
             new ApiResource("resource_aid") { Scopes = { "aid_fullpermission" }},
             new ApiResource("resource_photo_stock") { Scopes = { "photo_stock_fullpermission" }},
+            //new ApiResource("https://10.0.2.2:5001/resources") { Scopes = { "scope_name" }}, //
+            //new ApiResource("https://10.0.2.2:5011/resources") { Scopes = { "scope_name2" }}, //
 
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
       };
@@ -38,6 +40,8 @@ namespace NaturalDisasters.IdentityServer
             {
                 new ApiScope("aid_fullpermission","Aid API için sınırlı erişim"),
                 new ApiScope("photo_stock_fullpermission","Photo Stock API için full erişim"),
+                //new ApiScope("scope_name", "Description of the scope"), //
+                //new ApiScope("scope_name2", "Description of the scope"), //
 
                 new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
@@ -55,6 +59,9 @@ namespace NaturalDisasters.IdentityServer
                     AllowedScopes = {
                         "aid_fullpermission",
                         "photo_stock_fullpermission",
+                        //"scope_name",
+                        //"scope_name2",
+
                          IdentityServerConstants.StandardScopes.Email,
                          IdentityServerConstants.StandardScopes.OpenId,
                          IdentityServerConstants.StandardScopes.Profile,

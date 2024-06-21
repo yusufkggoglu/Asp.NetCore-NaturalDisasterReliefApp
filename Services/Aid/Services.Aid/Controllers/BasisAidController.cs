@@ -24,7 +24,7 @@ namespace Services.Aid.Controllers
         }
 
         [HttpGet]
-        [Authorize(Policy = "RequireUserRole")]
+        //[Authorize(Policy = "RequireUserRole")]
         public async Task<IActionResult> GettAll()
         {
             var response = await _basisAidService.GetAllAsync();
@@ -59,7 +59,7 @@ namespace Services.Aid.Controllers
             return CreateActionResultInstance(response);
         }
         [HttpDelete("{id}")]
-        [Authorize(Policy = "RequireAdminRole")]
+        //[Authorize(Policy = "RequireAdminRole")]
         public async Task<IActionResult> Delete(string id)
         {
             var response = await _basisAidService.DeleteAsync(id);

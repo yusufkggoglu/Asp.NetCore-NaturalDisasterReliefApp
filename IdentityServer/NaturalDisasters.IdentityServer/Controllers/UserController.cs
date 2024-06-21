@@ -157,6 +157,60 @@ namespace NaturalDisasters.IdentityServer.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> VerifyEmailAndSend([FromBody] CheckEmailDto checkEmailDto)
+        {
+            var existingUserByEmail = await _userManager.FindByEmailAsync(checkEmailDto.Email);
+            if (existingUserByEmail != null)
+            {
+                PasswordResetService resetService = new PasswordResetService(_userManager);
+                var status = await resetService.ResetPassword(checkEmailDto.Email);
+                if (status)
+                {
+                    return Ok(Response<NoContent>.Success(200));
+                }
+            }
+            return BadRequest(Response<NoContent>.Fail("Sistemde böyle bir email adresine ait kullanıcı bulunamadı.", 400));
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> VerifyCode([FromBody] CheckResetCodeDto resetcode)
+        {
+            var user = await _userManager.FindByEmailAsync(resetcode.Email);
+            if (user != null)
+            {
+                if (user.PasswordResetCode == resetcode.Code)
+                {
+                    return Ok(Response<NoContent>.Success(200));
+                }
+            }
+            return BadRequest(Response<NoContent>.Fail("Sistemde böyle bir email adresine ait kullanıcı bulunamadı.", 400));
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetCodeDto reset)
+        {
+            var user = await _userManager.FindByEmailAsync(reset.Email);
+            if (user != null)
+            {
+                if (user.PasswordResetCode == reset.Code)
+                {
+                    var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+                    var result = await _userManager.ResetPasswordAsync(user, token, reset.Password);
+
+                    if (result.Succeeded)
+                    {
+                        return Ok(Response<NoContent>.Success(200));
+                    }
+                    return BadRequest(Response<NoContent>.Fail("Şifre değiştirirken bir hata oluştu, daha sonra tekrar deneyiniz.", 400));
+                }
+            }
+            return BadRequest(Response<NoContent>.Fail("Sistemde böyle bir email adresine ait kullanıcı bulunamadı.", 400));
+        }
+
+        [HttpPost]
         public async Task<IActionResult> AssignRoleToUser([FromBody] AssignRoleModel model)
         {
             var user = await _userManager.FindByEmailAsync(model.Email);
@@ -180,4 +234,22 @@ public class AssignRoleModel
 {
     public string Email { get; set; }
     public string Role { get; set; }
+}
+
+public class CheckEmailDto
+{
+    public string Email { get; set; }
+}
+
+public class CheckResetCodeDto
+{
+    public string Email { get; set; }
+    public string Code { get; set; }
+}
+
+public class ResetCodeDto
+{
+    public string Email { get; set; }
+    public string Password { get; set; }
+    public string Code { get; set; }
 }

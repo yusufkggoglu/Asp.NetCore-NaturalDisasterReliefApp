@@ -8,5 +8,6 @@ namespace NaturalDisasters.IdentityServer.Models
         public string City { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
+        public string PasswordResetCode { get; set; }
     }
 }

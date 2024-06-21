@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\identityserver\\naturaldisasters.identityserver\\services\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|solutionrelative:identityserver\\naturaldisasters.identityserver\\services\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\identityserver\\naturaldisasters.identityserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|solutionrelative:identityserver\\naturaldisasters.identityserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\identityserver\\naturaldisasters.identityserver\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|solutionrelative:identityserver\\naturaldisasters.identityserver\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\services\\aid\\services.aid\\controllers\\basisaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|solutionrelative:services\\aid\\services.aid\\controllers\\basisaidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\identityserver\\naturaldisasters.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|solutionrelative:identityserver\\naturaldisasters.identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\services\\aid\\services.aid\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEA750E7-7082-46C8-9AF7-F8EE84111C5E}|Services\\Aid\\Services.Aid\\Services.Aid.csproj|solutionrelative:services\\aid\\services.aid\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\identityserver\\naturaldisasters.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|solutionrelative:identityserver\\naturaldisasters.identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 140,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Startup.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\NaturalDisasters.IdentityServer\\Startup.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Startup.cs",
-              "RelativeToolTip": "IdentityServer\\NaturalDisasters.IdentityServer\\Startup.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAA1wCkAAABBAAAA",
+              "DocumentIndex": 0,
+              "Title": "PasswordResetService.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Services\\PasswordResetService.cs",
+              "RelativeDocumentMoniker": "IdentityServer\\NaturalDisasters.IdentityServer\\Services\\PasswordResetService.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Services\\PasswordResetService.cs",
+              "RelativeToolTip": "IdentityServer\\NaturalDisasters.IdentityServer\\Services\\PasswordResetService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAzwCIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T14:14:42.887Z",
+              "WhenOpened": "2024-06-21T21:35:56.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "IdentityServer\\NaturalDisasters.IdentityServer\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Controllers\\UserController.cs",
               "RelativeToolTip": "IdentityServer\\NaturalDisasters.IdentityServer\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAYwFAAAABAAAAA",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAowJIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T14:11:07.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Program.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\NaturalDisasters.IdentityServer\\Program.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Program.cs",
-              "RelativeToolTip": "IdentityServer\\NaturalDisasters.IdentityServer\\Program.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAQwDYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T14:01:03.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Config.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Config.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\NaturalDisasters.IdentityServer\\Config.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Config.cs",
-              "RelativeToolTip": "IdentityServer\\NaturalDisasters.IdentityServer\\Config.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAEYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T13:30:06.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BasisAidController.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Controllers\\BasisAidController.cs",
-              "RelativeDocumentMoniker": "Services\\Aid\\Services.Aid\\Controllers\\BasisAidController.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Controllers\\BasisAidController.cs",
-              "RelativeToolTip": "Services\\Aid\\Services.Aid\\Controllers\\BasisAidController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T14:26:59.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Startup.cs",
-              "RelativeDocumentMoniker": "Services\\Aid\\Services.Aid\\Startup.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\Aid\\Services.Aid\\Startup.cs",
-              "RelativeToolTip": "Services\\Aid\\Services.Aid\\Startup.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAYwG0AAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T14:26:56.286Z",
+              "WhenOpened": "2024-06-21T21:34:25.946Z",
               "EditorCaption": ""
             }
           ]

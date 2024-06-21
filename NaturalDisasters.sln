@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared\Sha
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{F19942AC-03BE-4582-89EB-5DEF435849A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.PhotoService", "Services\PhotoStock\Services.PhotoService\Services.PhotoService.csproj", "{42571D73-7667-461F-97C9-1F391E0146B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.PhotoService", "Services\PhotoStock\Services.PhotoService\Services.PhotoService.csproj", "{42571D73-7667-461F-97C9-1F391E0146B2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NaturalDisasters.IdentityServer", "IdentityServer\NaturalDisasters.IdentityServer\NaturalDisasters.IdentityServer.csproj", "{E3763279-3C37-4519-B4D0-C46FC4CF5886}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{2DB19D4D-C73B-4712-93B6-68BABBB2CC3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateways\Gateway\Gateway.csproj", "{71067979-E8CB-4DCB-96B2-71A2FA245325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,10 @@ Global
 		{E3763279-3C37-4519-B4D0-C46FC4CF5886}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3763279-3C37-4519-B4D0-C46FC4CF5886}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3763279-3C37-4519-B4D0-C46FC4CF5886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71067979-E8CB-4DCB-96B2-71A2FA245325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71067979-E8CB-4DCB-96B2-71A2FA245325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71067979-E8CB-4DCB-96B2-71A2FA245325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71067979-E8CB-4DCB-96B2-71A2FA245325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +62,7 @@ Global
 		{F19942AC-03BE-4582-89EB-5DEF435849A8} = {365D8D3A-3680-4DF4-885A-760BB2565B84}
 		{42571D73-7667-461F-97C9-1F391E0146B2} = {F19942AC-03BE-4582-89EB-5DEF435849A8}
 		{E3763279-3C37-4519-B4D0-C46FC4CF5886} = {7810953F-7930-4F9B-A39C-C7DBC7E4FCF7}
+		{71067979-E8CB-4DCB-96B2-71A2FA245325} = {2DB19D4D-C73B-4712-93B6-68BABBB2CC3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6AA896D-3903-4AE6-915C-4DDC3694FE96}

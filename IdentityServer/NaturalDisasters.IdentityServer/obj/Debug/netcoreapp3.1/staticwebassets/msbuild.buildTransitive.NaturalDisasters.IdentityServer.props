@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\NaturalDisasters.IdentityServer.props" />
-</Project>
