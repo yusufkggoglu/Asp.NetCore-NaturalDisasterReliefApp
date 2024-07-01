@@ -8279,11 +8279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj",
+      "projectUniqueName": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj",
       "projectName": "NaturalDisasters.IdentityServer",
-      "projectPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj",
+      "projectPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj",
       "packagesPath": "C:\\Users\\Yusuf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\obj\\",
+      "outputPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8305,8 +8305,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj"
+            "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Shared\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Shared\\Shared\\Shared.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\PhotoStock\\Services.PhotoService\\Services.PhotoService.csproj": {}
+    "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Services\\PhotoStock\\Services.PhotoService\\Services.PhotoService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\PhotoStock\\Services.PhotoService\\Services.PhotoService.csproj": {
+    "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Services\\PhotoStock\\Services.PhotoService\\Services.PhotoService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\PhotoStock\\Services.PhotoService\\Services.PhotoService.csproj",
+        "projectUniqueName": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Services\\PhotoStock\\Services.PhotoService\\Services.PhotoService.csproj",
         "projectName": "Services.PhotoService",
-        "projectPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\PhotoStock\\Services.PhotoService\\Services.PhotoService.csproj",
+        "projectPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Services\\PhotoStock\\Services.PhotoService\\Services.PhotoService.csproj",
         "packagesPath": "C:\\Users\\Yusuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Services\\PhotoStock\\Services.PhotoService\\obj\\",
+        "outputPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Services\\PhotoStock\\Services.PhotoService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj"
+              "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Shared\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Shared\\Shared\\Shared.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj": {
+    "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Shared\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Shared\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Shared\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\Yusuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\Shared\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\Shared\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

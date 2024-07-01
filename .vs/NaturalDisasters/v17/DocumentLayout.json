@@ -1,50 +1,19 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\identityserver\\naturaldisasters.identityserver\\services\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|solutionrelative:identityserver\\naturaldisasters.identityserver\\services\\passwordresetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|c:\\users\\yusuf\\desktop\\bitirme-projesi\\bitirmeprojesi\\naturaldisasters\\identityserver\\naturaldisasters.identityserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3763279-3C37-4519-B4D0-C46FC4CF5886}|IdentityServer\\NaturalDisasters.IdentityServer\\NaturalDisasters.IdentityServer.csproj|solutionrelative:identityserver\\naturaldisasters.identityserver\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\backend\\NaturalDisasters\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 140,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PasswordResetService.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Services\\PasswordResetService.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\NaturalDisasters.IdentityServer\\Services\\PasswordResetService.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Services\\PasswordResetService.cs",
-              "RelativeToolTip": "IdentityServer\\NaturalDisasters.IdentityServer\\Services\\PasswordResetService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAzwCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T21:35:56.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "IdentityServer\\NaturalDisasters.IdentityServer\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\Desktop\\bitirme-projesi\\BitirmeProjesi\\NaturalDisasters\\IdentityServer\\NaturalDisasters.IdentityServer\\Controllers\\UserController.cs",
-              "RelativeToolTip": "IdentityServer\\NaturalDisasters.IdentityServer\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAowJIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T21:34:25.946Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
